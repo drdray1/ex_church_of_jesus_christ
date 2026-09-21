@@ -2,6 +2,7 @@ defmodule ExChurchOfJesusChrist.MixProject do
   use Mix.Project
 
   @version "0.1.0"
+  @source_url "https://github.com/drdray1/ex_church_of_jesus_christ"
 
   def project do
     [
@@ -13,6 +14,7 @@ defmodule ExChurchOfJesusChrist.MixProject do
       description:
         "The scriptures of The Church of Jesus Christ of Latter-day Saints as Elixir data. " <>
           "Contains all five standard works: the Old and New Testaments (KJV), the Book of Mormon, the Doctrine and Covenants and the Pearl of Great Price.",
+      source_url: @source_url,
       package: package(),
       docs: docs()
     ]
@@ -33,7 +35,10 @@ defmodule ExChurchOfJesusChrist.MixProject do
   defp package do
     [
       licenses: ["MIT"],
-      links: %{"Scriptures" => "https://www.churchofjesuschrist.org/study/scriptures?lang=eng"},
+      links: %{
+        "GitHub" => @source_url,
+        "Scriptures" => "https://www.churchofjesuschrist.org/study/scriptures?lang=eng"
+      },
       files: ~w(lib mix.exs README.md LICENSE .formatter.exs)
     ]
   end
