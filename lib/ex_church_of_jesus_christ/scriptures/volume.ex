@@ -204,11 +204,22 @@ defmodule ExChurchOfJesusChrist.Scriptures.Volume do
          }}
       end)
 
-    name_index =
+    names =
       for {book_id, %{aliases: aliases, book: book}} <- books,
           name <- [book.name, book.abbreviation, Atom.to_string(book_id) | aliases],
-          into: %{},
+          uniq: true,
           do: {normalize(name), book_id}
+
+    name_index = Map.new(names)
+
+    if map_size(name_index) != length(names) do
+      clashes =
+        names
+        |> Enum.group_by(&elem(&1, 0), &elem(&1, 1))
+        |> Enum.filter(fn {_, ids} -> length(ids) > 1 end)
+
+      raise ArgumentError, "#{inspect(id)} has names shared by several books: #{inspect(clashes)}"
+    end
 
     %__MODULE__{
       id: id,
