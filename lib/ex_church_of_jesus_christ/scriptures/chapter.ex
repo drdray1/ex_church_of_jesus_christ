@@ -6,9 +6,10 @@ defmodule ExChurchOfJesusChrist.Scriptures.Chapter do
   alias ExChurchOfJesusChrist.Scriptures.Verse
 
   @enforce_keys [:book, :book_name, :number, :verses]
-  defstruct [:book, :book_name, :number, :reference, :url, verses: []]
+  defstruct [:volume, :book, :book_name, :number, :reference, :url, verses: []]
 
   @type t :: %__MODULE__{
+          volume: atom(),
           book: atom(),
           book_name: String.t(),
           number: pos_integer(),

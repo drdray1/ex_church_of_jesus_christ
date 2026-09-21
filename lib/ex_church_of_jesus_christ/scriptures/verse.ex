@@ -4,9 +4,10 @@ defmodule ExChurchOfJesusChrist.Scriptures.Verse do
   """
 
   @enforce_keys [:book, :book_name, :chapter, :number, :text]
-  defstruct [:book, :book_name, :chapter, :number, :text, :reference, :url]
+  defstruct [:volume, :book, :book_name, :chapter, :number, :text, :reference, :url]
 
   @type t :: %__MODULE__{
+          volume: atom(),
           book: atom(),
           book_name: String.t(),
           chapter: pos_integer(),

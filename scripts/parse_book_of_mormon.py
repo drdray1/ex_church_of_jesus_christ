@@ -1,3 +1,9 @@
+"""Parses the Project Gutenberg Book of Mormon (eBook #17) into volume JSON.
+
+    curl -sL -o bom.txt https://www.gutenberg.org/cache/epub/17/pg17.txt
+    python scripts/parse_book_of_mormon.py bom.txt bom.json
+    python scripts/generate_volume.py bom.json
+"""
 import re, json, sys
 lines = open(sys.argv[1] if len(sys.argv) > 1 else "bom.txt", encoding="utf-8").read().split("\n")
 start = next(i for i,l in enumerate(lines) if l.startswith("THE FIRST BOOK OF NEPHI HIS REIGN"))
@@ -118,4 +124,38 @@ for bk in books:
     print(bk["name"], len(bk["chapters"]), sum(len(c["verses"]) for c in bk["chapters"]), "| title:", bk["title"], "| intro paras:", len(bk["introduction"]),
           "| chapter headings:", sum(1 for c in bk["chapters"] if c["heading"]))
 print("TOTAL", total)
-json.dump({"front_matter": front, "books": books}, open("bom.json","w",encoding="utf-8"), ensure_ascii=False, indent=1)
+META = {
+ "first_nephi":     ("FirstNephi", "1 Ne.", "1-ne", "The First Book of Nephi", "His Reign and Ministry", ["1 nephi", "1 ne", "1ne", "1nephi", "first nephi", "i nephi"]),
+ "second_nephi":    ("SecondNephi", "2 Ne.", "2-ne", "The Second Book of Nephi", None, ["2 nephi", "2 ne", "2ne", "2nephi", "second nephi", "ii nephi"]),
+ "jacob":           ("Jacob", "Jacob", "jacob", "The Book of Jacob", "The Brother of Nephi", ["jac"]),
+ "enos":            ("Enos", "Enos", "enos", "The Book of Enos", None, []),
+ "jarom":           ("Jarom", "Jarom", "jarom", "The Book of Jarom", None, ["jar"]),
+ "omni":            ("Omni", "Omni", "omni", "The Book of Omni", None, []),
+ "words_of_mormon": ("WordsOfMormon", "W of M", "w-of-m", "The Words of Mormon", None, ["wofm", "wom"]),
+ "mosiah":          ("Mosiah", "Mosiah", "mosiah", "The Book of Mosiah", None, ["mos"]),
+ "alma":            ("Alma", "Alma", "alma", "The Book of Alma", "The Son of Alma", []),
+ "helaman":         ("Helaman", "Hel.", "hel", "The Book of Helaman", None, []),
+ "third_nephi":     ("ThirdNephi", "3 Ne.", "3-ne", "Third Nephi", "The Book of Nephi, the Son of Nephi, Who Was the Son of Helaman", ["3 nephi", "3 ne", "3ne", "3nephi", "third nephi", "iii nephi"]),
+ "fourth_nephi":    ("FourthNephi", "4 Ne.", "4-ne", "Fourth Nephi", "The Book of Nephi, Who Is the Son of Nephi—One of the Disciples of Jesus Christ", ["4 nephi", "4 ne", "4ne", "4nephi", "fourth nephi", "iv nephi"]),
+ "mormon":          ("Mormon", "Morm.", "morm", "The Book of Mormon", None, []),
+ "ether":           ("Ether", "Ether", "ether", "The Book of Ether", None, ["eth"]),
+ "moroni":          ("Moroni", "Moro.", "moro", "The Book of Moroni", None, ["mni"]),
+}
+
+volume_books = []
+for bk in books:
+    module, abbr, url, title, subtitle, aliases = META[bk["slug"]]
+    volume_books.append({
+        "id": bk["slug"], "module": module, "name": bk["name"], "abbreviation": abbr,
+        "url_slug": url, "title": title, "subtitle": subtitle,
+        "introduction": bk["introduction"], "aliases": aliases,
+        "chapters": [{"number": c["number"], "verses": [v["text"] for v in c["verses"]]} for c in bk["chapters"]],
+    })
+
+out = sys.argv[2] if len(sys.argv) > 2 else "bom.json"
+json.dump({"volume": {"id": "book_of_mormon", "module": "BookOfMormon"},
+           "front_matter": {"title_page": front["title_page"],
+                            "testimony_of_three_witnesses": front["three_witnesses"],
+                            "testimony_of_eight_witnesses": front["eight_witnesses"]},
+           "books": volume_books},
+          open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

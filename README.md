@@ -41,6 +41,9 @@ verse.url
 {:ok, verse}   = BookOfMormon.verse("2 Nephi", 2, 25)
 BookOfMormon.verse!(:ether, 12, 27)
 
+# Any volume, by reference
+ExChurchOfJesusChrist.lookup("Ether 12:27")
+
 # Everything, lazily
 BookOfMormon.books()
 BookOfMormon.stream() |> Enum.count()
@@ -74,14 +77,26 @@ because the source text leaves them out.
 
 ## Regenerating the data
 
-The modules in `lib/ex_church_of_jesus_christ/scriptures/book_of_mormon/data/`
-are generated. To rebuild them:
+Each volume's text lives in generated modules under
+`lib/ex_church_of_jesus_christ/scriptures/<volume>/data/`. A per-source parser
+writes volume JSON, and `scripts/generate_volume.py` turns that JSON into
+Elixir (its docstring documents the JSON format). For the Book of Mormon:
 
 ```bash
 curl -sL -o bom.txt https://www.gutenberg.org/cache/epub/17/pg17.txt
-python scripts/parse_book_of_mormon.py bom.txt
-python scripts/generate_book_of_mormon.py bom.json
+python scripts/parse_book_of_mormon.py bom.txt bom.json
+python scripts/generate_volume.py bom.json
 ```
+
+## Adding a volume
+
+1. Write `scripts/parse_<volume>.py` to produce volume JSON from a
+   public-domain source.
+2. Run `scripts/generate_volume.py` on it.
+3. Add a module that calls `use ExChurchOfJesusChrist.Scriptures.Volume` (see
+   `ExChurchOfJesusChrist.Scriptures.BookOfMormon`), and list it in
+   `ExChurchOfJesusChrist.Scriptures`.
+4. Add a test that checks the official chapter and verse counts.
 
 ## Roadmap
 

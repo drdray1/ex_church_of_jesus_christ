@@ -17,7 +17,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.Book do
     :chapter_count,
     :verse_count,
     :url,
-    volume: :book_of_mormon,
+    :volume,
     introduction: []
   ]
 
