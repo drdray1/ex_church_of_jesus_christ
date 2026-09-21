@@ -9,7 +9,9 @@ defmodule ExChurchOfJesusChrist.Scriptures do
   alias ExChurchOfJesusChrist.Scriptures.{
     Book,
     BookOfMormon,
+    DoctrineAndCovenants,
     NewTestament,
+    PearlOfGreatPrice,
     OldTestament,
     Verse,
     Volume
@@ -19,14 +21,17 @@ defmodule ExChurchOfJesusChrist.Scriptures do
   @volumes [
     OldTestament,
     NewTestament,
-    BookOfMormon
+    BookOfMormon,
+    DoctrineAndCovenants,
+    PearlOfGreatPrice
   ]
 
   @doc """
   The volume modules, in canonical order.
 
       iex> ExChurchOfJesusChrist.Scriptures.volumes() |> Enum.map(& &1.id())
-      [:old_testament, :new_testament, :book_of_mormon]
+      [:old_testament, :new_testament, :book_of_mormon, :doctrine_and_covenants,
+       :pearl_of_great_price]
   """
   @spec volumes() :: [module()]
   def volumes, do: @volumes

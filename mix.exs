@@ -12,7 +12,7 @@ defmodule ExChurchOfJesusChrist.MixProject do
       deps: deps(),
       description:
         "The scriptures of The Church of Jesus Christ of Latter-day Saints as Elixir data. " <>
-          "Version 0.1 contains the complete Book of Mormon.",
+          "Contains all five standard works: the Old and New Testaments (KJV), the Book of Mormon, the Doctrine and Covenants and the Pearl of Great Price.",
       package: package(),
       docs: docs()
     ]
