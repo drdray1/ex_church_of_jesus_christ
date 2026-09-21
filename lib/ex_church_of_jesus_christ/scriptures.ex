@@ -6,11 +6,19 @@ defmodule ExChurchOfJesusChrist.Scriptures do
   `"Alma 32:21"` is routed to the right volume automatically.
   """
 
-  alias ExChurchOfJesusChrist.Scriptures.{Book, BookOfMormon, Verse, Volume}
+  alias ExChurchOfJesusChrist.Scriptures.{
+    Book,
+    BookOfMormon,
+    NewTestament,
+    OldTestament,
+    Verse,
+    Volume
+  }
 
   # In canonical order. Each module must `use ExChurchOfJesusChrist.Scriptures.Volume`.
   @volumes [
-    ExChurchOfJesusChrist.Scriptures.NewTestament,
+    OldTestament,
+    NewTestament,
     BookOfMormon
   ]
 
@@ -18,7 +26,7 @@ defmodule ExChurchOfJesusChrist.Scriptures do
   The volume modules, in canonical order.
 
       iex> ExChurchOfJesusChrist.Scriptures.volumes() |> Enum.map(& &1.id())
-      [:new_testament, :book_of_mormon]
+      [:old_testament, :new_testament, :book_of_mormon]
   """
   @spec volumes() :: [module()]
   def volumes, do: @volumes
