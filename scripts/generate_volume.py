@@ -19,7 +19,8 @@ verse numbers):
           "subtitle": "His Reign and Ministry",   # or null
           "introduction": ["paragraph", ...],     # text before chapter 1, may be []
           "aliases": ["1 nephi", "1 ne", ...],    # extra names accepted in references
-          "chapters": [{"number": 1, "verses": ["verse 1 text", "verse 2 text", ...]}]
+          "chapters": [{"number": 1, "verses": ["verse 1 text", ...],
+                        "heading": "text before verse 1"}]   # heading optional
         }
       ]
     }
@@ -56,6 +57,11 @@ def main(path):
             "    {%d,\n     %s}" % (c["number"], ex_list(c["verses"], 5)) for c in book["chapters"]
         )
         subtitle_src = ex(book["subtitle"]) if book.get("subtitle") else "nil"
+        headings = [(c["number"], c["heading"]) for c in book["chapters"] if c.get("heading")]
+        headings_src = (
+            "%{\n" + ",\n".join("    %d => %s" % (n, ex(h)) for n, h in headings) + "\n  }"
+            if headings else "%{}"
+        )
         src = f'''{HEADER}defmodule {namespace}.{book["module"]} do
   @moduledoc false
 
@@ -78,6 +84,8 @@ def main(path):
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: {headings_src}
 end
 '''
         write(os.path.join(out, book["id"] + ".ex"), src)

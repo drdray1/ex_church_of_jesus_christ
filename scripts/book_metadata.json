@@ -1,0 +1,1285 @@
+[
+  {
+    "books": [
+      {
+        "abbreviation": "Gen.",
+        "aliases": [
+          "gn",
+          "ge"
+        ],
+        "id": "genesis",
+        "module": "Genesis",
+        "name": "Genesis",
+        "subtitle": null,
+        "title": "The First Book of Moses Called Genesis",
+        "url_slug": "gen"
+      },
+      {
+        "abbreviation": "Ex.",
+        "aliases": [
+          "exod",
+          "exo",
+          "exd"
+        ],
+        "id": "exodus",
+        "module": "Exodus",
+        "name": "Exodus",
+        "subtitle": null,
+        "title": "The Second Book of Moses Called Exodus",
+        "url_slug": "ex"
+      },
+      {
+        "abbreviation": "Lev.",
+        "aliases": [
+          "lv",
+          "le"
+        ],
+        "id": "leviticus",
+        "module": "Leviticus",
+        "name": "Leviticus",
+        "subtitle": null,
+        "title": "The Third Book of Moses Called Leviticus",
+        "url_slug": "lev"
+      },
+      {
+        "abbreviation": "Num.",
+        "aliases": [
+          "nm",
+          "nu",
+          "numb"
+        ],
+        "id": "numbers",
+        "module": "Numbers",
+        "name": "Numbers",
+        "subtitle": null,
+        "title": "The Fourth Book of Moses Called Numbers",
+        "url_slug": "num"
+      },
+      {
+        "abbreviation": "Deut.",
+        "aliases": [
+          "dt",
+          "deu"
+        ],
+        "id": "deuteronomy",
+        "module": "Deuteronomy",
+        "name": "Deuteronomy",
+        "subtitle": null,
+        "title": "The Fifth Book of Moses Called Deuteronomy",
+        "url_slug": "deut"
+      },
+      {
+        "abbreviation": "Josh.",
+        "aliases": [
+          "jos",
+          "jsh"
+        ],
+        "id": "joshua",
+        "module": "Joshua",
+        "name": "Joshua",
+        "subtitle": null,
+        "title": "The Book of Joshua",
+        "url_slug": "josh"
+      },
+      {
+        "abbreviation": "Judg.",
+        "aliases": [
+          "jdg",
+          "jdgs",
+          "jg"
+        ],
+        "id": "judges",
+        "module": "Judges",
+        "name": "Judges",
+        "subtitle": null,
+        "title": "The Book of Judges",
+        "url_slug": "judg"
+      },
+      {
+        "abbreviation": "Ruth",
+        "aliases": [
+          "rth",
+          "ru"
+        ],
+        "id": "ruth",
+        "module": "Ruth",
+        "name": "Ruth",
+        "subtitle": null,
+        "title": "The Book of Ruth",
+        "url_slug": "ruth"
+      },
+      {
+        "abbreviation": "1 Sam.",
+        "aliases": [
+          "1sam",
+          "1 sa",
+          "1sa",
+          "1 sm",
+          "i samuel",
+          "i sam",
+          "1samuel"
+        ],
+        "id": "first_samuel",
+        "module": "FirstSamuel",
+        "name": "1 Samuel",
+        "subtitle": null,
+        "title": "The First Book of Samuel",
+        "url_slug": "1-sam"
+      },
+      {
+        "abbreviation": "2 Sam.",
+        "aliases": [
+          "2sam",
+          "2 sa",
+          "2sa",
+          "2 sm",
+          "ii samuel",
+          "ii sam",
+          "2samuel"
+        ],
+        "id": "second_samuel",
+        "module": "SecondSamuel",
+        "name": "2 Samuel",
+        "subtitle": null,
+        "title": "The Second Book of Samuel",
+        "url_slug": "2-sam"
+      },
+      {
+        "abbreviation": "1 Kgs.",
+        "aliases": [
+          "1kgs",
+          "1 kg",
+          "1kg",
+          "1 ki",
+          "1ki",
+          "1 kin",
+          "i kings",
+          "i kgs",
+          "1kings"
+        ],
+        "id": "first_kings",
+        "module": "FirstKings",
+        "name": "1 Kings",
+        "subtitle": null,
+        "title": "The First Book of the Kings",
+        "url_slug": "1-kgs"
+      },
+      {
+        "abbreviation": "2 Kgs.",
+        "aliases": [
+          "2kgs",
+          "2 kg",
+          "2kg",
+          "2 ki",
+          "2ki",
+          "2 kin",
+          "ii kings",
+          "ii kgs",
+          "2kings"
+        ],
+        "id": "second_kings",
+        "module": "SecondKings",
+        "name": "2 Kings",
+        "subtitle": null,
+        "title": "The Second Book of the Kings",
+        "url_slug": "2-kgs"
+      },
+      {
+        "abbreviation": "1 Chr.",
+        "aliases": [
+          "1chr",
+          "1 chron",
+          "1chron",
+          "1 ch",
+          "1ch",
+          "i chronicles",
+          "i chr",
+          "1chronicles"
+        ],
+        "id": "first_chronicles",
+        "module": "FirstChronicles",
+        "name": "1 Chronicles",
+        "subtitle": null,
+        "title": "The First Book of the Chronicles",
+        "url_slug": "1-chr"
+      },
+      {
+        "abbreviation": "2 Chr.",
+        "aliases": [
+          "2chr",
+          "2 chron",
+          "2chron",
+          "2 ch",
+          "2ch",
+          "ii chronicles",
+          "ii chr",
+          "2chronicles"
+        ],
+        "id": "second_chronicles",
+        "module": "SecondChronicles",
+        "name": "2 Chronicles",
+        "subtitle": null,
+        "title": "The Second Book of the Chronicles",
+        "url_slug": "2-chr"
+      },
+      {
+        "abbreviation": "Ezra",
+        "aliases": [
+          "ezr"
+        ],
+        "id": "ezra",
+        "module": "Ezra",
+        "name": "Ezra",
+        "subtitle": null,
+        "title": "Ezra",
+        "url_slug": "ezra"
+      },
+      {
+        "abbreviation": "Neh.",
+        "aliases": [
+          "nehem"
+        ],
+        "id": "nehemiah",
+        "module": "Nehemiah",
+        "name": "Nehemiah",
+        "subtitle": null,
+        "title": "The Book of Nehemiah",
+        "url_slug": "neh"
+      },
+      {
+        "abbreviation": "Esth.",
+        "aliases": [
+          "est",
+          "es"
+        ],
+        "id": "esther",
+        "module": "Esther",
+        "name": "Esther",
+        "subtitle": null,
+        "title": "The Book of Esther",
+        "url_slug": "esth"
+      },
+      {
+        "abbreviation": "Job",
+        "aliases": [
+          "jb"
+        ],
+        "id": "job",
+        "module": "Job",
+        "name": "Job",
+        "subtitle": null,
+        "title": "The Book of Job",
+        "url_slug": "job"
+      },
+      {
+        "abbreviation": "Ps.",
+        "aliases": [
+          "psalm",
+          "psa",
+          "psm",
+          "pss",
+          "pslm"
+        ],
+        "id": "psalms",
+        "module": "Psalms",
+        "name": "Psalms",
+        "subtitle": null,
+        "title": "The Book of Psalms",
+        "url_slug": "ps"
+      },
+      {
+        "abbreviation": "Prov.",
+        "aliases": [
+          "pro",
+          "prv",
+          "pr"
+        ],
+        "id": "proverbs",
+        "module": "Proverbs",
+        "name": "Proverbs",
+        "subtitle": null,
+        "title": "The Proverbs",
+        "url_slug": "prov"
+      },
+      {
+        "abbreviation": "Eccl.",
+        "aliases": [
+          "ecc",
+          "eccles",
+          "ec",
+          "qoheleth"
+        ],
+        "id": "ecclesiastes",
+        "module": "Ecclesiastes",
+        "name": "Ecclesiastes",
+        "subtitle": null,
+        "title": "Ecclesiastes or, the Preacher",
+        "url_slug": "eccl"
+      },
+      {
+        "abbreviation": "Song",
+        "aliases": [
+          "song of songs",
+          "sos",
+          "so",
+          "canticles",
+          "canticle of canticles",
+          "cant"
+        ],
+        "id": "song_of_solomon",
+        "module": "SongOfSolomon",
+        "name": "Song of Solomon",
+        "subtitle": null,
+        "title": "The Song of Solomon",
+        "url_slug": "song"
+      },
+      {
+        "abbreviation": "Isa.",
+        "aliases": [
+          "is"
+        ],
+        "id": "isaiah",
+        "module": "Isaiah",
+        "name": "Isaiah",
+        "subtitle": null,
+        "title": "The Book of the Prophet Isaiah",
+        "url_slug": "isa"
+      },
+      {
+        "abbreviation": "Jer.",
+        "aliases": [
+          "je",
+          "jr"
+        ],
+        "id": "jeremiah",
+        "module": "Jeremiah",
+        "name": "Jeremiah",
+        "subtitle": null,
+        "title": "The Book of the Prophet Jeremiah",
+        "url_slug": "jer"
+      },
+      {
+        "abbreviation": "Lam.",
+        "aliases": [
+          "la"
+        ],
+        "id": "lamentations",
+        "module": "Lamentations",
+        "name": "Lamentations",
+        "subtitle": null,
+        "title": "The Lamentations of Jeremiah",
+        "url_slug": "lam"
+      },
+      {
+        "abbreviation": "Ezek.",
+        "aliases": [
+          "eze",
+          "ezk"
+        ],
+        "id": "ezekiel",
+        "module": "Ezekiel",
+        "name": "Ezekiel",
+        "subtitle": null,
+        "title": "The Book of the Prophet Ezekiel",
+        "url_slug": "ezek"
+      },
+      {
+        "abbreviation": "Dan.",
+        "aliases": [
+          "da",
+          "dn"
+        ],
+        "id": "daniel",
+        "module": "Daniel",
+        "name": "Daniel",
+        "subtitle": null,
+        "title": "The Book of Daniel",
+        "url_slug": "dan"
+      },
+      {
+        "abbreviation": "Hosea",
+        "aliases": [
+          "hos",
+          "ho"
+        ],
+        "id": "hosea",
+        "module": "Hosea",
+        "name": "Hosea",
+        "subtitle": null,
+        "title": "Hosea",
+        "url_slug": "hosea"
+      },
+      {
+        "abbreviation": "Joel",
+        "aliases": [
+          "jl"
+        ],
+        "id": "joel",
+        "module": "Joel",
+        "name": "Joel",
+        "subtitle": null,
+        "title": "Joel",
+        "url_slug": "joel"
+      },
+      {
+        "abbreviation": "Amos",
+        "aliases": [
+          "am"
+        ],
+        "id": "amos",
+        "module": "Amos",
+        "name": "Amos",
+        "subtitle": null,
+        "title": "Amos",
+        "url_slug": "amos"
+      },
+      {
+        "abbreviation": "Obad.",
+        "aliases": [
+          "ob",
+          "oba",
+          "obd"
+        ],
+        "id": "obadiah",
+        "module": "Obadiah",
+        "name": "Obadiah",
+        "subtitle": null,
+        "title": "Obadiah",
+        "url_slug": "obad"
+      },
+      {
+        "abbreviation": "Jonah",
+        "aliases": [
+          "jon",
+          "jnh"
+        ],
+        "id": "jonah",
+        "module": "Jonah",
+        "name": "Jonah",
+        "subtitle": null,
+        "title": "Jonah",
+        "url_slug": "jonah"
+      },
+      {
+        "abbreviation": "Micah",
+        "aliases": [
+          "mic",
+          "mc"
+        ],
+        "id": "micah",
+        "module": "Micah",
+        "name": "Micah",
+        "subtitle": null,
+        "title": "Micah",
+        "url_slug": "micah"
+      },
+      {
+        "abbreviation": "Nahum",
+        "aliases": [
+          "nah",
+          "na"
+        ],
+        "id": "nahum",
+        "module": "Nahum",
+        "name": "Nahum",
+        "subtitle": null,
+        "title": "Nahum",
+        "url_slug": "nahum"
+      },
+      {
+        "abbreviation": "Hab.",
+        "aliases": [
+          "habak"
+        ],
+        "id": "habakkuk",
+        "module": "Habakkuk",
+        "name": "Habakkuk",
+        "subtitle": null,
+        "title": "Habakkuk",
+        "url_slug": "hab"
+      },
+      {
+        "abbreviation": "Zeph.",
+        "aliases": [
+          "zep",
+          "zp"
+        ],
+        "id": "zephaniah",
+        "module": "Zephaniah",
+        "name": "Zephaniah",
+        "subtitle": null,
+        "title": "Zephaniah",
+        "url_slug": "zeph"
+      },
+      {
+        "abbreviation": "Hag.",
+        "aliases": [
+          "hg"
+        ],
+        "id": "haggai",
+        "module": "Haggai",
+        "name": "Haggai",
+        "subtitle": null,
+        "title": "Haggai",
+        "url_slug": "hag"
+      },
+      {
+        "abbreviation": "Zech.",
+        "aliases": [
+          "zec",
+          "zc"
+        ],
+        "id": "zechariah",
+        "module": "Zechariah",
+        "name": "Zechariah",
+        "subtitle": null,
+        "title": "Zechariah",
+        "url_slug": "zech"
+      },
+      {
+        "abbreviation": "Mal.",
+        "aliases": [
+          "ml"
+        ],
+        "id": "malachi",
+        "module": "Malachi",
+        "name": "Malachi",
+        "subtitle": null,
+        "title": "Malachi",
+        "url_slug": "mal"
+      }
+    ],
+    "module": "OldTestament",
+    "volume": "old_testament"
+  },
+  {
+    "books": [
+      {
+        "abbreviation": "Matt.",
+        "aliases": [
+          "mt",
+          "mat",
+          "matt",
+          "st matthew",
+          "saint matthew"
+        ],
+        "id": "matthew",
+        "module": "Matthew",
+        "name": "Matthew",
+        "subtitle": null,
+        "title": "The Gospel According to St Matthew",
+        "url_slug": "matt"
+      },
+      {
+        "abbreviation": "Mark",
+        "aliases": [
+          "mk",
+          "mr",
+          "mrk",
+          "st mark",
+          "saint mark"
+        ],
+        "id": "mark",
+        "module": "Mark",
+        "name": "Mark",
+        "subtitle": null,
+        "title": "The Gospel According to St Mark",
+        "url_slug": "mark"
+      },
+      {
+        "abbreviation": "Luke",
+        "aliases": [
+          "lk",
+          "luk",
+          "st luke",
+          "saint luke"
+        ],
+        "id": "luke",
+        "module": "Luke",
+        "name": "Luke",
+        "subtitle": null,
+        "title": "The Gospel According to St Luke",
+        "url_slug": "luke"
+      },
+      {
+        "abbreviation": "John",
+        "aliases": [
+          "jn",
+          "jhn",
+          "joh",
+          "st john",
+          "saint john"
+        ],
+        "id": "john",
+        "module": "John",
+        "name": "John",
+        "subtitle": null,
+        "title": "The Gospel According to St John",
+        "url_slug": "john"
+      },
+      {
+        "abbreviation": "Acts",
+        "aliases": [
+          "ac",
+          "act",
+          "acts of the apostles"
+        ],
+        "id": "acts",
+        "module": "Acts",
+        "name": "Acts",
+        "subtitle": null,
+        "title": "The Acts of the Apostles",
+        "url_slug": "acts"
+      },
+      {
+        "abbreviation": "Rom.",
+        "aliases": [
+          "ro",
+          "rm",
+          "rom"
+        ],
+        "id": "romans",
+        "module": "Romans",
+        "name": "Romans",
+        "subtitle": null,
+        "title": "The Epistle of Paul the Apostle to the Romans",
+        "url_slug": "rom"
+      },
+      {
+        "abbreviation": "1 Cor.",
+        "aliases": [
+          "1cor",
+          "1 co",
+          "1co",
+          "1corinthians",
+          "first corinthians",
+          "i corinthians",
+          "i cor"
+        ],
+        "id": "first_corinthians",
+        "module": "FirstCorinthians",
+        "name": "1 Corinthians",
+        "subtitle": null,
+        "title": "The First Epistle of Paul the Apostle to the Corinthians",
+        "url_slug": "1-cor"
+      },
+      {
+        "abbreviation": "2 Cor.",
+        "aliases": [
+          "2cor",
+          "2 co",
+          "2co",
+          "2corinthians",
+          "second corinthians",
+          "ii corinthians",
+          "ii cor"
+        ],
+        "id": "second_corinthians",
+        "module": "SecondCorinthians",
+        "name": "2 Corinthians",
+        "subtitle": null,
+        "title": "The Second Epistle of Paul the Apostle to the Corinthians",
+        "url_slug": "2-cor"
+      },
+      {
+        "abbreviation": "Gal.",
+        "aliases": [
+          "ga"
+        ],
+        "id": "galatians",
+        "module": "Galatians",
+        "name": "Galatians",
+        "subtitle": null,
+        "title": "The Epistle of Paul the Apostle to the Galatians",
+        "url_slug": "gal"
+      },
+      {
+        "abbreviation": "Eph.",
+        "aliases": [
+          "ephes"
+        ],
+        "id": "ephesians",
+        "module": "Ephesians",
+        "name": "Ephesians",
+        "subtitle": null,
+        "title": "The Epistle of Paul the Apostle to the Ephesians",
+        "url_slug": "eph"
+      },
+      {
+        "abbreviation": "Philip.",
+        "aliases": [
+          "phil",
+          "php"
+        ],
+        "id": "philippians",
+        "module": "Philippians",
+        "name": "Philippians",
+        "subtitle": null,
+        "title": "The Epistle of Paul the Apostle to the Philippians",
+        "url_slug": "philip"
+      },
+      {
+        "abbreviation": "Col.",
+        "aliases": [
+          "colos"
+        ],
+        "id": "colossians",
+        "module": "Colossians",
+        "name": "Colossians",
+        "subtitle": null,
+        "title": "The Epistle of Paul the Apostle to the Colossians",
+        "url_slug": "col"
+      },
+      {
+        "abbreviation": "1 Thes.",
+        "aliases": [
+          "1 thess",
+          "1thes",
+          "1thess",
+          "1 th",
+          "1th",
+          "1thessalonians",
+          "first thessalonians",
+          "i thessalonians",
+          "i thes",
+          "i thess"
+        ],
+        "id": "first_thessalonians",
+        "module": "FirstThessalonians",
+        "name": "1 Thessalonians",
+        "subtitle": null,
+        "title": "The First Epistle of Paul the Apostle to the Thessalonians",
+        "url_slug": "1-thes"
+      },
+      {
+        "abbreviation": "2 Thes.",
+        "aliases": [
+          "2 thess",
+          "2thes",
+          "2thess",
+          "2 th",
+          "2th",
+          "2thessalonians",
+          "second thessalonians",
+          "ii thessalonians",
+          "ii thes",
+          "ii thess"
+        ],
+        "id": "second_thessalonians",
+        "module": "SecondThessalonians",
+        "name": "2 Thessalonians",
+        "subtitle": null,
+        "title": "The Second Epistle of Paul the Apostle to the Thessalonians",
+        "url_slug": "2-thes"
+      },
+      {
+        "abbreviation": "1 Tim.",
+        "aliases": [
+          "1tim",
+          "1 ti",
+          "1ti",
+          "1timothy",
+          "first timothy",
+          "i timothy",
+          "i tim"
+        ],
+        "id": "first_timothy",
+        "module": "FirstTimothy",
+        "name": "1 Timothy",
+        "subtitle": null,
+        "title": "The First Epistle of Paul the Apostle to Timothy",
+        "url_slug": "1-tim"
+      },
+      {
+        "abbreviation": "2 Tim.",
+        "aliases": [
+          "2tim",
+          "2 ti",
+          "2ti",
+          "2timothy",
+          "second timothy",
+          "ii timothy",
+          "ii tim"
+        ],
+        "id": "second_timothy",
+        "module": "SecondTimothy",
+        "name": "2 Timothy",
+        "subtitle": null,
+        "title": "The Second Epistle of Paul the Apostle to Timothy",
+        "url_slug": "2-tim"
+      },
+      {
+        "abbreviation": "Titus",
+        "aliases": [
+          "tit"
+        ],
+        "id": "titus",
+        "module": "Titus",
+        "name": "Titus",
+        "subtitle": null,
+        "title": "The Epistle of Paul the Apostle to Titus",
+        "url_slug": "titus"
+      },
+      {
+        "abbreviation": "Philem.",
+        "aliases": [
+          "phm",
+          "phlm",
+          "philm"
+        ],
+        "id": "philemon",
+        "module": "Philemon",
+        "name": "Philemon",
+        "subtitle": null,
+        "title": "The Epistle of Paul the Apostle to Philemon",
+        "url_slug": "philem"
+      },
+      {
+        "abbreviation": "Heb.",
+        "aliases": [
+          "hebr"
+        ],
+        "id": "hebrews",
+        "module": "Hebrews",
+        "name": "Hebrews",
+        "subtitle": null,
+        "title": "The Epistle of Paul the Apostle to the Hebrews",
+        "url_slug": "heb"
+      },
+      {
+        "abbreviation": "James",
+        "aliases": [
+          "jas",
+          "jm",
+          "jms"
+        ],
+        "id": "james",
+        "module": "James",
+        "name": "James",
+        "subtitle": null,
+        "title": "The General Epistle of James",
+        "url_slug": "james"
+      },
+      {
+        "abbreviation": "1 Pet.",
+        "aliases": [
+          "1pet",
+          "1 pe",
+          "1pe",
+          "1 pt",
+          "1pt",
+          "1peter",
+          "first peter",
+          "i peter",
+          "i pet"
+        ],
+        "id": "first_peter",
+        "module": "FirstPeter",
+        "name": "1 Peter",
+        "subtitle": null,
+        "title": "The First Epistle General of Peter",
+        "url_slug": "1-pet"
+      },
+      {
+        "abbreviation": "2 Pet.",
+        "aliases": [
+          "2pet",
+          "2 pe",
+          "2pe",
+          "2 pt",
+          "2pt",
+          "2peter",
+          "second peter",
+          "ii peter",
+          "ii pet"
+        ],
+        "id": "second_peter",
+        "module": "SecondPeter",
+        "name": "2 Peter",
+        "subtitle": null,
+        "title": "The Second General Epistle of Peter",
+        "url_slug": "2-pet"
+      },
+      {
+        "abbreviation": "1 Jn.",
+        "aliases": [
+          "1jn",
+          "1 jhn",
+          "1jhn",
+          "1 jo",
+          "1jo",
+          "1john",
+          "first john",
+          "i john",
+          "i jn"
+        ],
+        "id": "first_john",
+        "module": "FirstJohn",
+        "name": "1 John",
+        "subtitle": null,
+        "title": "The First Epistle General of John",
+        "url_slug": "1-jn"
+      },
+      {
+        "abbreviation": "2 Jn.",
+        "aliases": [
+          "2jn",
+          "2 jhn",
+          "2jhn",
+          "2 jo",
+          "2jo",
+          "2john",
+          "second john",
+          "ii john",
+          "ii jn"
+        ],
+        "id": "second_john",
+        "module": "SecondJohn",
+        "name": "2 John",
+        "subtitle": null,
+        "title": "The Second Epistle General of John",
+        "url_slug": "2-jn"
+      },
+      {
+        "abbreviation": "3 Jn.",
+        "aliases": [
+          "3jn",
+          "3 jhn",
+          "3jhn",
+          "3 jo",
+          "3jo",
+          "3john",
+          "third john",
+          "iii john",
+          "iii jn"
+        ],
+        "id": "third_john",
+        "module": "ThirdJohn",
+        "name": "3 John",
+        "subtitle": null,
+        "title": "The Third Epistle General of John",
+        "url_slug": "3-jn"
+      },
+      {
+        "abbreviation": "Jude",
+        "aliases": [
+          "jd"
+        ],
+        "id": "jude",
+        "module": "Jude",
+        "name": "Jude",
+        "subtitle": null,
+        "title": "The General Epistle of Jude",
+        "url_slug": "jude"
+      },
+      {
+        "abbreviation": "Rev.",
+        "aliases": [
+          "re",
+          "rv",
+          "revelations",
+          "apocalypse",
+          "the revelation",
+          "revelation of john",
+          "revelation of st john"
+        ],
+        "id": "revelation",
+        "module": "Revelation",
+        "name": "Revelation",
+        "subtitle": null,
+        "title": "The Revelation of St John the Divine",
+        "url_slug": "rev"
+      }
+    ],
+    "module": "NewTestament",
+    "volume": "new_testament"
+  },
+  {
+    "books": [
+      {
+        "abbreviation": "1 Ne.",
+        "aliases": [
+          "1 nephi",
+          "1 ne",
+          "1ne",
+          "1nephi",
+          "first nephi",
+          "i nephi"
+        ],
+        "id": "first_nephi",
+        "module": "FirstNephi",
+        "name": "1 Nephi",
+        "subtitle": "His Reign and Ministry",
+        "title": "The First Book of Nephi",
+        "url_slug": "1-ne"
+      },
+      {
+        "abbreviation": "2 Ne.",
+        "aliases": [
+          "2 nephi",
+          "2 ne",
+          "2ne",
+          "2nephi",
+          "second nephi",
+          "ii nephi"
+        ],
+        "id": "second_nephi",
+        "module": "SecondNephi",
+        "name": "2 Nephi",
+        "subtitle": null,
+        "title": "The Second Book of Nephi",
+        "url_slug": "2-ne"
+      },
+      {
+        "abbreviation": "Jacob",
+        "aliases": [
+          "jac"
+        ],
+        "id": "jacob",
+        "module": "Jacob",
+        "name": "Jacob",
+        "subtitle": "The Brother of Nephi",
+        "title": "The Book of Jacob",
+        "url_slug": "jacob"
+      },
+      {
+        "abbreviation": "Enos",
+        "aliases": [],
+        "id": "enos",
+        "module": "Enos",
+        "name": "Enos",
+        "subtitle": null,
+        "title": "The Book of Enos",
+        "url_slug": "enos"
+      },
+      {
+        "abbreviation": "Jarom",
+        "aliases": [
+          "jar"
+        ],
+        "id": "jarom",
+        "module": "Jarom",
+        "name": "Jarom",
+        "subtitle": null,
+        "title": "The Book of Jarom",
+        "url_slug": "jarom"
+      },
+      {
+        "abbreviation": "Omni",
+        "aliases": [],
+        "id": "omni",
+        "module": "Omni",
+        "name": "Omni",
+        "subtitle": null,
+        "title": "The Book of Omni",
+        "url_slug": "omni"
+      },
+      {
+        "abbreviation": "W of M",
+        "aliases": [
+          "wofm",
+          "wom"
+        ],
+        "id": "words_of_mormon",
+        "module": "WordsOfMormon",
+        "name": "Words of Mormon",
+        "subtitle": null,
+        "title": "The Words of Mormon",
+        "url_slug": "w-of-m"
+      },
+      {
+        "abbreviation": "Mosiah",
+        "aliases": [
+          "mos"
+        ],
+        "id": "mosiah",
+        "module": "Mosiah",
+        "name": "Mosiah",
+        "subtitle": null,
+        "title": "The Book of Mosiah",
+        "url_slug": "mosiah"
+      },
+      {
+        "abbreviation": "Alma",
+        "aliases": [],
+        "id": "alma",
+        "module": "Alma",
+        "name": "Alma",
+        "subtitle": "The Son of Alma",
+        "title": "The Book of Alma",
+        "url_slug": "alma"
+      },
+      {
+        "abbreviation": "Hel.",
+        "aliases": [],
+        "id": "helaman",
+        "module": "Helaman",
+        "name": "Helaman",
+        "subtitle": null,
+        "title": "The Book of Helaman",
+        "url_slug": "hel"
+      },
+      {
+        "abbreviation": "3 Ne.",
+        "aliases": [
+          "3 nephi",
+          "3 ne",
+          "3ne",
+          "3nephi",
+          "third nephi",
+          "iii nephi"
+        ],
+        "id": "third_nephi",
+        "module": "ThirdNephi",
+        "name": "3 Nephi",
+        "subtitle": "The Book of Nephi, the Son of Nephi, Who Was the Son of Helaman",
+        "title": "Third Nephi",
+        "url_slug": "3-ne"
+      },
+      {
+        "abbreviation": "4 Ne.",
+        "aliases": [
+          "4 nephi",
+          "4 ne",
+          "4ne",
+          "4nephi",
+          "fourth nephi",
+          "iv nephi"
+        ],
+        "id": "fourth_nephi",
+        "module": "FourthNephi",
+        "name": "4 Nephi",
+        "subtitle": "The Book of Nephi, Who Is the Son of Nephi—One of the Disciples of Jesus Christ",
+        "title": "Fourth Nephi",
+        "url_slug": "4-ne"
+      },
+      {
+        "abbreviation": "Morm.",
+        "aliases": [],
+        "id": "mormon",
+        "module": "Mormon",
+        "name": "Mormon",
+        "subtitle": null,
+        "title": "The Book of Mormon",
+        "url_slug": "morm"
+      },
+      {
+        "abbreviation": "Ether",
+        "aliases": [
+          "eth"
+        ],
+        "id": "ether",
+        "module": "Ether",
+        "name": "Ether",
+        "subtitle": null,
+        "title": "The Book of Ether",
+        "url_slug": "ether"
+      },
+      {
+        "abbreviation": "Moro.",
+        "aliases": [
+          "mni"
+        ],
+        "id": "moroni",
+        "module": "Moroni",
+        "name": "Moroni",
+        "subtitle": null,
+        "title": "The Book of Moroni",
+        "url_slug": "moro"
+      }
+    ],
+    "module": "BookOfMormon",
+    "volume": "book_of_mormon"
+  },
+  {
+    "books": [
+      {
+        "abbreviation": "D&C",
+        "aliases": [
+          "dc",
+          "d and c",
+          "doctrine & covenants",
+          "doctrine and covenant"
+        ],
+        "id": "doctrine_and_covenants",
+        "module": "DoctrineAndCovenants",
+        "name": "Doctrine and Covenants",
+        "subtitle": "Containing Revelations Given to Joseph Smith, the Prophet with Some Additions by His Successors in the Presidency of the Church",
+        "title": "The Doctrine and Covenants",
+        "url_slug": "dc"
+      }
+    ],
+    "module": "DoctrineAndCovenants",
+    "volume": "doctrine_and_covenants"
+  },
+  {
+    "books": [
+      {
+        "abbreviation": "Moses",
+        "aliases": [
+          "book of moses"
+        ],
+        "id": "moses",
+        "module": "Moses",
+        "name": "Moses",
+        "subtitle": null,
+        "title": "Selections from the Book of Moses",
+        "url_slug": "moses"
+      },
+      {
+        "abbreviation": "Abr.",
+        "aliases": [
+          "book of abraham",
+          "abrah"
+        ],
+        "id": "abraham",
+        "module": "Abraham",
+        "name": "Abraham",
+        "subtitle": "Translated from the Papyrus, by Joseph Smith",
+        "title": "The Book of Abraham",
+        "url_slug": "abr"
+      },
+      {
+        "abbreviation": "JS—M",
+        "aliases": [
+          "jsm",
+          "joseph smith matthew"
+        ],
+        "id": "joseph_smith_matthew",
+        "module": "JosephSmithMatthew",
+        "name": "Joseph Smith—Matthew",
+        "subtitle": null,
+        "title": "Joseph Smith—Matthew",
+        "url_slug": "js-m"
+      },
+      {
+        "abbreviation": "JS—H",
+        "aliases": [
+          "joseph smith history"
+        ],
+        "id": "joseph_smith_history",
+        "module": "JosephSmithHistory",
+        "name": "Joseph Smith—History",
+        "subtitle": "Extracts from the History of Joseph Smith, the Prophet",
+        "title": "Joseph Smith—History",
+        "url_slug": "js-h"
+      },
+      {
+        "abbreviation": "A of F",
+        "aliases": [
+          "aof",
+          "aoff",
+          "article of faith"
+        ],
+        "id": "articles_of_faith",
+        "module": "ArticlesOfFaith",
+        "name": "Articles of Faith",
+        "subtitle": "of The Church of Jesus Christ of Latter-day Saints",
+        "title": "The Articles of Faith",
+        "url_slug": "a-of-f"
+      }
+    ],
+    "module": "PearlOfGreatPrice",
+    "volume": "pearl_of_great_price"
+  }
+]

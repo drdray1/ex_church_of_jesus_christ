@@ -30,7 +30,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.SecondJohn do
     {1,
      [
        "The elder unto the elect lady and her children, whom I love in the truth; and not I only, but also all they that have known the truth;",
-       "For the truth’s sake, which dwelleth in us, and shall be with us for ever.",
+       "For the truth's sake, which dwelleth in us, and shall be with us for ever.",
        "Grace be with you, mercy, and peace, from God the Father, and from the Lord Jesus Christ, the Son of the Father, in truth and love.",
        "I rejoiced greatly that I found of thy children walking in truth, as we have received a commandment from the Father.",
        "And now I beseech thee, lady, not as though I wrote a new commandment unto thee, but that which we had from the beginning, that we love one another.",
@@ -46,4 +46,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.SecondJohn do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

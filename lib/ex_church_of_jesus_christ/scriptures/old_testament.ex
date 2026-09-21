@@ -10,8 +10,8 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament do
   abbreviation (`"1 Sam."`) or a common alias (`"psalm"`, `"canticles"`),
   case-insensitively.
 
-  Verse numbering follows the KJV. Psalm superscriptions (such as "A Psalm of
-  David.") are not numbered verses and are not included.
+  Verse numbering follows the KJV. Psalm titles (such as "A Psalm of David.")
+  are not numbered verses; they are the `heading` of their chapter.
 
   ## Examples
 

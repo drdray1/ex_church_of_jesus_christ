@@ -22,7 +22,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Malachi do
     {1,
      [
        "The burden of the word of the LORD to Israel by Malachi.",
-       "I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? Was not Esau Jacob’s brother? saith the LORD: yet I loved Jacob,",
+       "I have loved you, saith the LORD. Yet ye say, Wherein hast thou loved us? Was not Esau Jacob's brother? saith the LORD: yet I loved Jacob,",
        "And I hated Esau, and laid his mountains and his heritage waste for the dragons of the wilderness.",
        "Whereas Edom saith, We are impoverished, but we will return and build the desolate places; thus saith the LORD of hosts, They shall build, but I will throw down; and they shall call them, The border of wickedness, and, The people against whom the LORD hath indignation for ever.",
        "And your eyes shall see, and ye shall say, The LORD will be magnified from the border of Israel.",
@@ -34,7 +34,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Malachi do
        "For from the rising of the sun even unto the going down of the same my name shall be great among the Gentiles; and in every place incense shall be offered unto my name, and a pure offering: for my name shall be great among the heathen, saith the LORD of hosts.",
        "But ye have profaned it, in that ye say, The table of the LORD is polluted; and the fruit thereof, even his meat, is contemptible.",
        "Ye said also, Behold, what a weariness is it! and ye have snuffed at it, saith the LORD of hosts; and ye brought that which was torn, and the lame, and the sick; thus ye brought an offering: should I accept this of your hand? saith the LORD.",
-       "But cursed be the deceiver, which hath in his flock a male, and voweth, and sacrificeth unto the LORD a corrupt thing: for I am a great King, saith the LORD of hosts, and my name is dreadful among the heathen."
+       "But cursed be the deceiver, which hath in his flock a male, and voweth, and sacrificeth unto the Lord a corrupt thing: for I am a great King, saith the LORD of hosts, and my name is dreadful among the heathen."
      ]},
     {2,
      [
@@ -44,7 +44,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Malachi do
        "And ye shall know that I have sent this commandment unto you, that my covenant might be with Levi, saith the LORD of hosts.",
        "My covenant was with him of life and peace; and I gave them to him for the fear wherewith he feared me, and was afraid before my name.",
        "The law of truth was in his mouth, and iniquity was not found in his lips: he walked with me in peace and equity, and did turn many away from iniquity.",
-       "For the priest’s lips should keep knowledge, and they should seek the law at his mouth: for he is the messenger of the LORD of hosts.",
+       "For the priest's lips should keep knowledge, and they should seek the law at his mouth: for he is the messenger of the LORD of hosts.",
        "But ye are departed out of the way; ye have caused many to stumble at the law; ye have corrupted the covenant of Levi, saith the LORD of hosts.",
        "Therefore have I also made you contemptible and base before all the people, according as ye have not kept my ways, but have been partial in the law.",
        "Have we not all one father? hath not one God created us? why do we deal treacherously every man against his brother, by profaning the covenant of our fathers?",
@@ -58,8 +58,8 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Malachi do
      ]},
     {3,
      [
-       "Behold, I will send my messenger, and he shall prepare the way before me: and the LORD, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts.",
-       "But who may abide the day of his coming? and who shall stand when he appeareth? for he is like a refiner’s fire, and like fullers’ soap:",
+       "Behold, I will send my messenger, and he shall prepare the way before me: and the Lord, whom ye seek, shall suddenly come to his temple, even the messenger of the covenant, whom ye delight in: behold, he shall come, saith the LORD of hosts.",
+       "But who may abide the day of his coming? and who shall stand when he appeareth? for he is like a refiner's fire, and like fullers' soap:",
        "And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the LORD an offering in righteousness.",
        "Then shall the offering of Judah and Jerusalem be pleasant unto the LORD, as in the days of old, and as in former years.",
        "And I will come near to you to judgment; and I will be a swift witness against the sorcerers, and against the adulterers, and against false swearers, and against those that oppress the hireling in his wages, the widow, and the fatherless, and that turn aside the stranger from his right, and fear not me, saith the LORD of hosts.",
@@ -89,4 +89,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Malachi do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

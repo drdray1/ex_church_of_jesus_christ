@@ -40,4 +40,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.PearlOfGreatPrice.Data.ArticlesOfFait
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

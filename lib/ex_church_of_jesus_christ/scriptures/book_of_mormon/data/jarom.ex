@@ -40,4 +40,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.Jarom do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

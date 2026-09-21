@@ -77,54 +77,55 @@ Books have ids `:first_nephi`, `:second_nephi`, `:jacob`, `:enos`, `:jarom`,
 `:omni`, `:words_of_mormon`, `:mosiah`, `:alma`, `:helaman`, `:third_nephi`,
 `:fourth_nephi`, `:mormon`, `:ether` and `:moroni`.
 
-## Text sources
+## Text source
 
-All text is in the public domain:
+All five volumes come from
+[bcbooks/scriptures-json](https://github.com/bcbooks/scriptures-json), a
+dataset dedicated to the public domain. It has the current (2013) edition's
+text, including the KJV Bible used by the Church. Chapter and verse numbering
+matches churchofjesuschrist.org, and the tests check every volume's chapter and
+verse counts (every section's, for the Doctrine and Covenants).
 
-- **Old and New Testaments:** the King James Version from
-  [Project Gutenberg eBook #10](https://www.gutenberg.org/ebooks/10).
-- **Book of Mormon:** [Project Gutenberg eBook #17](https://www.gutenberg.org/ebooks/17).
-- **Doctrine and Covenants and Pearl of Great Price:** the current (2013)
-  edition text from [bcbooks/scriptures-json](https://github.com/bcbooks/scriptures-json),
-  which is dedicated to the public domain.
+Text that is part of the scriptures is included:
 
-Chapter and verse numbering matches churchofjesuschrist.org, and the tests
-check every volume's chapter and verse counts.
+- the Book of Mormon's title page, the testimonies of the Three and Eight
+  Witnesses, and the original book headings and chapter headings (for example
+  "The Record of Zeniff" before Mosiah 9), as `Book.introduction` and
+  `Chapter.heading`
+- Psalm titles such as "A Psalm of David.", as `Chapter.heading`
+- the explanations of the Abraham facsimiles
+  (`PearlOfGreatPrice.facsimile/1`)
 
 The library does not include material the Church copyrights in its current
-editions: chapter and section headings, footnotes, introductions, the
-Testimony of the Prophet Joseph Smith, Official Declaration 2, and the study
+editions: the chapter and section summaries, footnotes, introductions, the
+Testimony of the Prophet Joseph Smith, Official Declaration 2 and the study
 helps (Topical Guide, Bible Dictionary and so on). Official Declaration 1 is
-not included either, because the source doesn't have it. The Gutenberg texts
-also lack the short headings that begin some chapters (for example before
-Mosiah 9) and the Psalm titles. Book names follow the Church's table of
-contents, so references display as "Psalms 23:1"; "Psalm 23" also works.
+not in the dataset.
+
+Book names follow the Church's table of contents, so references display as
+"Psalms 23:1"; "Psalm 23" also works. The dataset uses straight quotes and
+apostrophes, and small caps are written as capitals ("LORD").
 
 ## Regenerating the data
 
 Each volume's text lives in generated modules under
-`lib/ex_church_of_jesus_christ/scriptures/<volume>/data/`. A per-source parser
-writes volume JSON, and `scripts/generate_volume.py` turns that JSON into
-Elixir (its docstring documents the JSON format). Each parser's docstring has
-its exact commands; for example, the Book of Mormon:
+`lib/ex_church_of_jesus_christ/scriptures/<volume>/data/`.
+`scripts/parse_bcbooks.py` converts the dataset into volume JSON using the book
+names, abbreviations, URL slugs and aliases in `scripts/book_metadata.json`,
+and `scripts/generate_volume.py` turns that JSON into Elixir (its docstring
+documents the JSON format):
 
 ```bash
-curl -sL -o bom.txt https://www.gutenberg.org/cache/epub/17/pg17.txt
-python scripts/parse_book_of_mormon.py bom.txt bom.json
-python scripts/generate_volume.py bom.json
+python scripts/parse_bcbooks.py --download ../bcbooks-src
+python scripts/parse_bcbooks.py ../bcbooks-src ../bcbooks-out
+for f in ../bcbooks-out/*.json; do python scripts/generate_volume.py "$f"; done
 ```
-
-| Volume | Parser |
-|---|---|
-| Old Testament | `scripts/parse_old_testament.py` |
-| New Testament | `scripts/parse_new_testament.py` |
-| Book of Mormon | `scripts/parse_book_of_mormon.py` |
-| Doctrine and Covenants, Pearl of Great Price | `scripts/parse_bcbooks.py` |
 
 ## Adding a volume
 
-1. Write `scripts/parse_<volume>.py` to produce volume JSON from a
-   public-domain source.
+1. Add the volume's books to `scripts/book_metadata.json`, and produce volume
+   JSON from a public-domain source (extend `scripts/parse_bcbooks.py` or add a
+   parser of your own).
 2. Run `scripts/generate_volume.py` on it.
 3. Add a module that calls `use ExChurchOfJesusChrist.Scriptures.Volume` (see
    `ExChurchOfJesusChrist.Scriptures.BookOfMormon`), and list it in
@@ -133,5 +134,5 @@ python scripts/generate_volume.py bom.json
 
 ## Roadmap
 
-- Public-domain chapter headings and footnotes (from the 1920/1921 editions)
+- Public-domain footnotes and cross-references (from the 1920/1921 editions)
   and public-domain Bible study helps.

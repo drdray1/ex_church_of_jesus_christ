@@ -31,18 +31,18 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Jonah do
        "And they said every one to his fellow, Come, and let us cast lots, that we may know for whose cause this evil is upon us. So they cast lots, and the lot fell upon Jonah.",
        "Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; What is thine occupation? and whence comest thou? what is thy country? and of what people art thou?",
        "And he said unto them, I am an Hebrew; and I fear the LORD, the God of heaven, which hath made the sea and the dry land.",
-       "Then were the men exceedingly afraid, and said unto him. Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them.",
+       "Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them.",
        "Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous.",
        "And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you.",
        "Nevertheless the men rowed hard to bring it to the land; but they could not: for the sea wrought, and was tempestuous against them.",
-       "Wherefore they cried unto the LORD, and said, We beseech thee, O LORD, we beseech thee, let us not perish for this man’s life, and lay not upon us innocent blood: for thou, O LORD, hast done as it pleased thee.",
-       "So they look up Jonah, and cast him forth into the sea: and the sea ceased from her raging.",
+       "Wherefore they cried unto the LORD, and said, We beseech thee, O LORD, we beseech thee, let us not perish for this man's life, and lay not upon us innocent blood: for thou, O LORD, hast done as it pleased thee.",
+       "So they took up Jonah, and cast him forth into the sea: and the sea ceased from her raging.",
        "Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows.",
        "Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights."
      ]},
     {2,
      [
-       "Then Jonah prayed unto the LORD his God out of the fish’s belly,",
+       "Then Jonah prayed unto the LORD his God out of the fish's belly,",
        "And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice.",
        "For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about: all thy billows and thy waves passed over me.",
        "Then I said, I am cast out of thy sight; yet I will look again toward thy holy temple.",
@@ -57,8 +57,8 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Jonah do
      [
        "And the word of the LORD came unto Jonah the second time, saying,",
        "Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee.",
-       "So Jonah arose, and went unto Nineveh, according to the word of the LORD. Now Nineveh was an exceeding great city of three days’ journey.",
-       "And Jonah began to enter into the city a day’s journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown.",
+       "So Jonah arose, and went unto Nineveh, according to the word of the LORD. Now Nineveh was an exceeding great city of three days' journey.",
+       "And Jonah began to enter into the city a day's journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown.",
        "So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them.",
        "For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe from him, and covered him with sackcloth, and sat in ashes.",
        "And he caused it to be proclaimed and published through Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste any thing: let them not feed, nor drink water:",
@@ -83,4 +83,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Jonah do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

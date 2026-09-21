@@ -4093,4 +4093,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.DoctrineAndCovenants.Data.DoctrineAnd
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

@@ -53,7 +53,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstJohn do
        "He that saith he is in the light, and hateth his brother, is in darkness even until now.",
        "He that loveth his brother abideth in the light, and there is none occasion of stumbling in him.",
        "But he that hateth his brother is in darkness, and walketh in darkness, and knoweth not whither he goeth, because that darkness hath blinded his eyes.",
-       "I write unto you, little children, because your sins are forgiven you for his name’s sake.",
+       "I write unto you, little children, because your sins are forgiven you for his name's sake.",
        "I write unto you, fathers, because ye have known him that is from the beginning. I write unto you, young men, because ye have overcome the wicked one. I write unto you, little children, because ye have known the Father.",
        "I have written unto you, fathers, because ye have known him that is from the beginning. I have written unto you, young men, because ye are strong, and the word of God abideth in you, and ye have overcome the wicked one.",
        "Love not the world, neither the things that are in the world. If any man love the world, the love of the Father is not in him.",
@@ -64,7 +64,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstJohn do
        "But ye have an unction from the Holy One, and ye know all things.",
        "I have not written unto you because ye know not the truth, but because ye know it, and that no lie is of the truth.",
        "Who is a liar but he that denieth that Jesus is the Christ? He is antichrist, that denieth the Father and the Son.",
-       "Whosoever denieth the Son, the same hath not the Father: he that acknowledgeth the Son hath the Father also.",
+       "Whosoever denieth the Son, the same hath not the Father: [but] he that acknowledgeth the Son hath the Father also.",
        "Let that therefore abide in you, which ye have heard from the beginning. If that which ye have heard from the beginning shall remain in you, ye also shall continue in the Son, and in the Father.",
        "And this is the promise that he hath promised us, even eternal life.",
        "These things have I written unto you concerning them that seduce you.",
@@ -85,12 +85,12 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstJohn do
        "Whosoever is born of God doth not commit sin; for his seed remaineth in him: and he cannot sin, because he is born of God.",
        "In this the children of God are manifest, and the children of the devil: whosoever doeth not righteousness is not of God, neither he that loveth not his brother.",
        "For this is the message that ye heard from the beginning, that we should love one another.",
-       "Not as Cain, who was of that wicked one, and slew his brother. And wherefore slew he him? Because his own works were evil, and his brother’s righteous.",
+       "Not as Cain, who was of that wicked one, and slew his brother. And wherefore slew he him? Because his own works were evil, and his brother's righteous.",
        "Marvel not, my brethren, if the world hate you.",
        "We know that we have passed from death unto life, because we love the brethren. He that loveth not his brother abideth in death.",
        "Whosoever hateth his brother is a murderer: and ye know that no murderer hath eternal life abiding in him.",
        "Hereby perceive we the love of God, because he laid down his life for us: and we ought to lay down our lives for the brethren.",
-       "But whoso hath this world’s good, and seeth his brother have need, and shutteth up his bowels of compassion from him, how dwelleth the love of God in him?",
+       "But whoso hath this world's good, and seeth his brother have need, and shutteth up his bowels of compassion from him, how dwelleth the love of God in him?",
        "My little children, let us not love in word, neither in tongue; but in deed and in truth.",
        "And hereby we know that we are of the truth, and shall assure our hearts before him.",
        "For if our heart condemn us, God is greater than our heart, and knoweth all things.",
@@ -150,4 +150,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstJohn do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

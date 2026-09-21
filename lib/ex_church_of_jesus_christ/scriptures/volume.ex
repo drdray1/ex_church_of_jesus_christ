@@ -434,6 +434,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.Volume do
       book: entry.book.id,
       book_name: entry.book.name,
       number: number,
+      heading: Map.get(entry.module.headings(), number),
       reference: "#{entry.book.name} #{number}",
       url: "#{@site}/#{volume.url_path}/#{entry.url_slug}/#{number}?lang=eng",
       verses:

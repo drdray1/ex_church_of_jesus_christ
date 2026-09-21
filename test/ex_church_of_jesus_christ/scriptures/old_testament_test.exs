@@ -87,24 +87,26 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestamentTest do
     assert OldTestament.verse!(:genesis, 50, 26).text =~ ~r/he was put in a coffin in Egypt\.$/
     assert OldTestament.verse!(:psalms, 1, 1).text =~ ~r/^Blessed is the man that walketh not/
     assert OldTestament.verse!(:psalms, 150, 6).text =~ ~r/Praise ye the LORD\.$/
-    assert OldTestament.verse!(:obadiah, 1, 21).text =~ ~r/the kingdom shall be the LORD’s\.$/
+    assert OldTestament.verse!(:obadiah, 1, 21).text =~ ~r/the kingdom shall be the LORD's\.$/
 
     assert OldTestament.verse!(:malachi, 4, 6).text =~
              ~r/lest I come and smite the earth with a curse\.$/
   end
 
-  test "verses that were run together in the source text are split" do
+  test "verse boundaries" do
     assert OldTestament.verse!(:genesis, 1, 14).text =~ ~r/and for days, and years:$/
     assert OldTestament.verse!(:genesis, 1, 15).text =~ ~r/^And let them be for lights/
 
     assert OldTestament.verse!(:joshua, 12, 16).text ==
-             "The king of Makkedah, one; the king of Bethel, one;"
+             "The king of Makkedah, one; the king of Beth-el, one;"
 
     assert OldTestament.verse!(:joshua, 12, 17).text =~ ~r/^The king of Tappuah, one;/
   end
 
-  test "Psalms are numbered without superscriptions" do
-    assert OldTestament.verse!(:psalms, 3, 1).text =~ ~r/^Lord, how are they increased/
+  test "Psalm titles are chapter headings, not verses" do
+    assert OldTestament.verse!(:psalms, 3, 1).text =~ ~r/^LORD, how are they increased/
+    assert OldTestament.chapter!(:psalms, 23).heading == "A Psalm of David."
+    assert OldTestament.chapter!(:psalms, 1).heading == nil
 
     assert OldTestament.verse!(:psalms, 23, 1).text ==
              "The LORD is my shepherd; I shall not want."

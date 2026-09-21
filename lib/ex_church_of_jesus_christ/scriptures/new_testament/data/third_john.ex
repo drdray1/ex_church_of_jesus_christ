@@ -35,7 +35,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.ThirdJohn do
        "I have no greater joy than to hear that my children walk in truth.",
        "Beloved, thou doest faithfully whatsoever thou doest to the brethren, and to strangers;",
        "Which have borne witness of thy charity before the church: whom if thou bring forward on their journey after a godly sort, thou shalt do well:",
-       "Because that for his name’s sake they went forth, taking nothing of the Gentiles.",
+       "Because that for his name's sake they went forth, taking nothing of the Gentiles.",
        "We therefore ought to receive such, that we might be fellowhelpers to the truth.",
        "I wrote unto the church: but Diotrephes, who loveth to have the preeminence among them, receiveth us not.",
        "Wherefore, if I come, I will remember his deeds which he doeth, prating against us with malicious words: and not content therewith, neither doth he himself receive the brethren, and forbiddeth them that would, and casteth them out of the church.",
@@ -47,4 +47,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.ThirdJohn do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

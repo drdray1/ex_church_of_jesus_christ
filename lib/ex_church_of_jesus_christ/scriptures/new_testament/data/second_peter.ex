@@ -68,7 +68,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.SecondPeter do
        "And shall receive the reward of unrighteousness, as they that count it pleasure to riot in the day time. Spots they are and blemishes, sporting themselves with their own deceivings while they feast with you;",
        "Having eyes full of adultery, and that cannot cease from sin; beguiling unstable souls: an heart they have exercised with covetous practices; cursed children:",
        "Which have forsaken the right way, and are gone astray, following the way of Balaam the son of Bosor, who loved the wages of unrighteousness;",
-       "But was rebuked for his iniquity: the dumb ass speaking with man’s voice forbad the madness of the prophet.",
+       "But was rebuked for his iniquity: the dumb ass speaking with man's voice forbad the madness of the prophet.",
        "These are wells without water, clouds that are carried with a tempest; to whom the mist of darkness is reserved for ever.",
        "For when they speak great swelling words of vanity, they allure through the lusts of the flesh, through much wantonness, those that were clean escaped from them who live in error.",
        "While they promise them liberty, they themselves are the servants of corruption: for of whom a man is overcome, of the same is he brought in bondage.",
@@ -94,10 +94,12 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.SecondPeter do
        "Wherefore, beloved, seeing that ye look for such things, be diligent that ye may be found of him in peace, without spot, and blameless.",
        "And account that the longsuffering of our Lord is salvation; even as our beloved brother Paul also according to the wisdom given unto him hath written unto you;",
        "As also in all his epistles, speaking in them of these things; in which are some things hard to be understood, which they that are unlearned and unstable wrest, as they do also the other scriptures, unto their own destruction.",
-       "Ye therefore, beloved, seeing ye know these things before, beware lest ye also, being led away with the error of the wicked, fall from your own stedfastness.",
+       "Ye therefore, beloved, seeing ye know these things before, beware lest ye also, being led away with the error of the wicked, fall from your own steadfastness.",
        "But grow in grace, and in the knowledge of our Lord and Saviour Jesus Christ. To him be glory both now and for ever. Amen."
      ]}
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

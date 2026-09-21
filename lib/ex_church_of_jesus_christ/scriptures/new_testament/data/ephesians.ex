@@ -127,7 +127,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Ephesians do
        "Let no corrupt communication proceed out of your mouth, but that which is good to the use of edifying, that it may minister grace unto the hearers.",
        "And grieve not the holy Spirit of God, whereby ye are sealed unto the day of redemption.",
        "Let all bitterness, and wrath, and anger, and clamour, and evil speaking, be put away from you, with all malice:",
-       "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ’s sake hath forgiven you."
+       "And be ye kind one to another, tenderhearted, forgiving one another, even as God for Christ's sake hath forgiven you."
      ]},
     {5,
      [
@@ -168,7 +168,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Ephesians do
     {6,
      [
        "Children, obey your parents in the Lord: for this is right.",
-       "Honour thy father and mother; which is the first commandment with promise;",
+       "Honour thy father and mother; (which is the first commandment with promise;)",
        "That it may be well with thee, and thou mayest live long on the earth.",
        "And, ye fathers, provoke not your children to wrath: but bring them up in the nurture and admonition of the Lord.",
        "Servants, be obedient to them that are your masters according to the flesh, with fear and trembling, in singleness of your heart, as unto Christ;",
@@ -195,4 +195,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Ephesians do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

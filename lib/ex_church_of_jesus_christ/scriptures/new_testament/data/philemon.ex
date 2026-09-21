@@ -31,7 +31,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Philemon do
        "That the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus.",
        "For we have great joy and consolation in thy love, because the bowels of the saints are refreshed by thee, brother.",
        "Wherefore, though I might be much bold in Christ to enjoin thee that which is convenient,",
-       "Yet for love’s sake I rather beseech thee, being such an one as Paul the aged, and now also a prisoner of Jesus Christ.",
+       "Yet for love's sake I rather beseech thee, being such an one as Paul the aged, and now also a prisoner of Jesus Christ.",
        "I beseech thee for my son Onesimus, whom I have begotten in my bonds:",
        "Which in time past was to thee unprofitable, but now profitable to thee and to me:",
        "Whom I have sent again: thou therefore receive him, that is, mine own bowels:",
@@ -52,4 +52,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Philemon do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

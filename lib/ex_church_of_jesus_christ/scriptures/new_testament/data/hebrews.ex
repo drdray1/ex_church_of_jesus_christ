@@ -23,7 +23,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
      [
        "God, who at sundry times and in divers manners spake in time past unto the fathers by the prophets,",
        "Hath in these last days spoken unto us by his Son, whom he hath appointed heir of all things, by whom also he made the worlds;",
-       "Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high:",
+       "Who being the brightness of his glory, and the express image of his person, and upholding all things by the word of his power, when he had by himself purged our sins, sat down on the right hand of the Majesty on high;",
        "Being made so much better than the angels, as he hath by inheritance obtained a more excellent name than they.",
        "For unto which of the angels said he at any time, Thou art my Son, this day have I begotten thee? And again, I will be to him a Father, and he shall be to me a Son?",
        "And again, when he bringeth in the firstbegotten into the world, he saith, And let all the angels of God worship him.",
@@ -39,11 +39,11 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
     {2,
      [
        "Therefore we ought to give the more earnest heed to the things which we have heard, lest at any time we should let them slip.",
-       "For if the word spoken by angels was stedfast, and every transgression and disobedience received a just recompence of reward;",
+       "For if the word spoken by angels was steadfast, and every transgression and disobedience received a just recompence of reward;",
        "How shall we escape, if we neglect so great salvation; which at the first began to be spoken by the Lord, and was confirmed unto us by them that heard him;",
        "God also bearing them witness, both with signs and wonders, and with divers miracles, and gifts of the Holy Ghost, according to his own will?",
        "For unto the angels hath he not put in subjection the world to come, whereof we speak.",
-       "But one in a certain place testified, saying, What is man, that thou art mindful of him? or the son of man that thou visitest him?",
+       "But one in a certain place testified, saying, What is man, that thou art mindful of him? or the son of man, that thou visitest him?",
        "Thou madest him a little lower than the angels; thou crownedst him with glory and honour, and didst set him over the works of thy hands:",
        "Thou hast put all things in subjection under his feet. For in that he put all in subjection under him, he left nothing that is not put under him. But now we see not yet all things put under him.",
        "But we see Jesus, who was made a little lower than the angels for the suffering of death, crowned with glory and honour; that he by the grace of God should taste death for every man.",
@@ -72,7 +72,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
        "So I sware in my wrath, They shall not enter into my rest.)",
        "Take heed, brethren, lest there be in any of you an evil heart of unbelief, in departing from the living God.",
        "But exhort one another daily, while it is called To day; lest any of you be hardened through the deceitfulness of sin.",
-       "For we are made partakers of Christ, if we hold the beginning of our confidence stedfast unto the end;",
+       "For we are made partakers of Christ, if we hold the beginning of our confidence steadfast unto the end;",
        "While it is said, To day if ye will hear his voice, harden not your hearts, as in the provocation.",
        "For some, when they had heard, did provoke: howbeit not all that came out of Egypt by Moses.",
        "But with whom was he grieved forty years? was it not with them that had sinned, whose carcases fell in the wilderness?",
@@ -135,7 +135,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
        "For men verily swear by the greater: and an oath for confirmation is to them an end of all strife.",
        "Wherein God, willing more abundantly to shew unto the heirs of promise the immutability of his counsel, confirmed it by an oath:",
        "That by two immutable things, in which it was impossible for God to lie, we might have a strong consolation, who have fled for refuge to lay hold upon the hope set before us:",
-       "Which hope we have as an anchor of the soul, both sure and stedfast, and which entereth into that within the veil;",
+       "Which hope we have as an anchor of the soul, both sure and steadfast, and which entereth into that within the veil;",
        "Whither the forerunner is for us entered, even Jesus, made an high priest for ever after the order of Melchisedec."
      ]},
     {7,
@@ -166,7 +166,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
        "But this man, because he continueth ever, hath an unchangeable priesthood.",
        "Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.",
        "For such an high priest became us, who is holy, harmless, undefiled, separate from sinners, and made higher than the heavens;",
-       "Who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people’s: for this he did once, when he offered up himself.",
+       "Who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people's: for this he did once, when he offered up himself.",
        "For the law maketh men high priests which have infirmity; but the word of the oath, which was since the law, maketh the Son, who is consecrated for evermore."
      ]},
     {8,
@@ -190,7 +190,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
        "Then verily the first covenant had also ordinances of divine service, and a worldly sanctuary.",
        "For there was a tabernacle made; the first, wherein was the candlestick, and the table, and the shewbread; which is called the sanctuary.",
        "And after the second veil, the tabernacle which is called the Holiest of all;",
-       "Which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein was the golden pot that had manna, and Aaron’s rod that budded, and the tables of the covenant;",
+       "Which had the golden censer, and the ark of the covenant overlaid round about with gold, wherein was the golden pot that had manna, and Aaron's rod that budded, and the tables of the covenant;",
        "And over it the cherubims of glory shadowing the mercyseat; of which we cannot now speak particularly.",
        "Now when these things were thus ordained, the priests went always into the first tabernacle, accomplishing the service of God.",
        "But into the second went the high priest alone once every year, not without blood, which he offered for himself, and for the errors of the people:",
@@ -245,7 +245,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
        "Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching.",
        "For if we sin wilfully after that we have received the knowledge of the truth, there remaineth no more sacrifice for sins,",
        "But a certain fearful looking for of judgment and fiery indignation, which shall devour the adversaries.",
-       "He that despised Moses’ law died without mercy under two or three witnesses:",
+       "He that despised Moses' law died without mercy under two or three witnesses:",
        "Of how much sorer punishment, suppose ye, shall he be thought worthy, who hath trodden under foot the Son of God, and hath counted the blood of the covenant, wherewith he was sanctified, an unholy thing, and hath done despite unto the Spirit of grace?",
        "For we know him that hath said, Vengeance belongeth unto me, I will recompense, saith the Lord. And again, The Lord shall judge his people.",
        "It is a fearful thing to fall into the hands of the living God.",
@@ -282,8 +282,8 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
        "By faith Isaac blessed Jacob and Esau concerning things to come.",
        "By faith Jacob, when he was a dying, blessed both the sons of Joseph; and worshipped, leaning upon the top of his staff.",
        "By faith Joseph, when he died, made mention of the departing of the children of Israel; and gave commandment concerning his bones.",
-       "By faith Moses, when he was born, was hid three months of his parents, because they saw he was a proper child; and they were not afraid of the king’s commandment.",
-       "By faith Moses, when he was come to years, refused to be called the son of Pharaoh’s daughter;",
+       "By faith Moses, when he was born, was hid three months of his parents, because they saw he was a proper child; and they were not afraid of the king's commandment.",
+       "By faith Moses, when he was come to years, refused to be called the son of Pharaoh's daughter;",
        "Choosing rather to suffer affliction with the people of God, than to enjoy the pleasures of sin for a season;",
        "Esteeming the reproach of Christ greater riches than the treasures in Egypt: for he had respect unto the recompence of the reward.",
        "By faith he forsook Egypt, not fearing the wrath of the king: for he endured, as seeing him who is invisible.",
@@ -292,7 +292,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
        "By faith the walls of Jericho fell down, after they were compassed about seven days.",
        "By faith the harlot Rahab perished not with them that believed not, when she had received the spies with peace.",
        "And what shall I more say? for the time would fail me to tell of Gedeon, and of Barak, and of Samson, and of Jephthae; of David also, and Samuel, and of the prophets:",
-       "Who through faith subdued kingdoms, wrought righteousness, obtained promises, stopped the mouths of lions.",
+       "Who through faith subdued kingdoms, wrought righteousness, obtained promises, stopped the mouths of lions,",
        "Quenched the violence of fire, escaped the edge of the sword, out of weakness were made strong, waxed valiant in fight, turned to flight the armies of the aliens.",
        "Women received their dead raised to life again: and others were tortured, not accepting deliverance; that they might obtain a better resurrection:",
        "And others had trial of cruel mockings and scourgings, yea, moreover of bonds and imprisonment:",
@@ -321,7 +321,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
        "Lest there be any fornicator, or profane person, as Esau, who for one morsel of meat sold his birthright.",
        "For ye know how that afterward, when he would have inherited the blessing, he was rejected: for he found no place of repentance, though he sought it carefully with tears.",
        "For ye are not come unto the mount that might be touched, and that burned with fire, nor unto blackness, and darkness, and tempest,",
-       "And the sound of a trumpet, and the voice of words; which voice they that heard intreated that the word should not be spoken to them any more:",
+       "And the sound of a trumpet, and the voice of words; which voice they that heard entreated that the word should not be spoken to them any more:",
        "(For they could not endure that which was commanded, And if so much as a beast touch the mountain, it shall be stoned, or thrust through with a dart:",
        "And so terrible was the sight, that Moses said, I exceedingly fear and quake:)",
        "But ye are come unto mount Sion, and unto the city of the living God, the heavenly Jerusalem, and to an innumerable company of angels,",
@@ -364,4 +364,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Hebrews do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

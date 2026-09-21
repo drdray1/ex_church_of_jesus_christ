@@ -29,7 +29,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Joel do
        "For a nation is come up upon my land, strong, and without number, whose teeth are the teeth of a lion, and he hath the cheek teeth of a great lion.",
        "He hath laid my vine waste, and barked my fig tree: he hath made it clean bare, and cast it away; the branches thereof are made white.",
        "Lament like a virgin girded with sackcloth for the husband of her youth.",
-       "The meat offering and the drink offering is cut off from the house of the LORD; the priests, the LORD’s ministers, mourn.",
+       "The meat offering and the drink offering is cut off from the house of the LORD; the priests, the LORD's ministers, mourn.",
        "The field is wasted, the land mourneth; for the corn is wasted: the new wine is dried up, the oil languisheth.",
        "Be ye ashamed, O ye husbandmen; howl, O ye vinedressers, for the wheat and for the barley; because the harvest of the field is perished.",
        "The vine is dried up, and the fig tree languisheth; the pomegranate tree, the palm tree also, and the apple tree, even all the trees of the field, are withered: because joy is withered away from the sons of men.",
@@ -67,14 +67,14 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Joel do
        "Fear not, O land; be glad and rejoice: for the LORD will do great things.",
        "Be not afraid, ye beasts of the field: for the pastures of the wilderness do spring, for the tree beareth her fruit, the fig tree and the vine do yield their strength.",
        "Be glad then, ye children of Zion, and rejoice in the LORD your God: for he hath given you the former rain moderately, and he will cause to come down for you the rain, the former rain, and the latter rain in the first month.",
-       "And the floors shall be full of wheat, and the vats shall overflow with wine and oil.",
+       "And the floors shall be full of wheat, and the fats shall overflow with wine and oil.",
        "And I will restore to you the years that the locust hath eaten, the cankerworm, and the caterpiller, and the palmerworm, my great army which I sent among you.",
        "And ye shall eat in plenty, and be satisfied, and praise the name of the LORD your God, that hath dealt wondrously with you: and my people shall never be ashamed.",
        "And ye shall know that I am in the midst of Israel, and that I am the LORD your God, and none else: and my people shall never be ashamed.",
        "And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy, your old men shall dream dreams, your young men shall see visions:",
        "And also upon the servants and upon the handmaids in those days will I pour out my spirit.",
        "And I will shew wonders in the heavens and in the earth, blood, and fire, and pillars of smoke.",
-       "The sun shall be turned into darkness, and the moon into blood, before the great and terrible day of the LORD come.",
+       "The sun shall be turned into darkness, and the moon into blood, before the great and the terrible day of the LORD come.",
        "And it shall come to pass, that whosoever shall call on the name of the LORD shall be delivered: for in mount Zion and in Jerusalem shall be deliverance, as the LORD hath said, and in the remnant whom the LORD shall call."
      ]},
     {3,
@@ -88,7 +88,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Joel do
        "Behold, I will raise them out of the place whither ye have sold them, and will return your recompence upon your own head:",
        "And I will sell your sons and your daughters into the hand of the children of Judah, and they shall sell them to the Sabeans, to a people far off: for the LORD hath spoken it.",
        "Proclaim ye this among the Gentiles; Prepare war, wake up the mighty men, let all the men of war draw near; let them come up:",
-       "Beat your plowshares into swords and your pruninghooks into spears: let the weak say, I am strong.",
+       "Beat your plowshares into swords, and your pruninghooks into spears: let the weak say, I am strong.",
        "Assemble yourselves, and come, all ye heathen, and gather yourselves together round about: thither cause thy mighty ones to come down, O LORD.",
        "Let the heathen be wakened, and come up to the valley of Jehoshaphat: for there will I sit to judge all the heathen round about.",
        "Put ye in the sickle, for the harvest is ripe: come, get you down; for the press is full, the fats overflow; for their wickedness is great.",
@@ -96,7 +96,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Joel do
        "The sun and the moon shall be darkened, and the stars shall withdraw their shining.",
        "The LORD also shall roar out of Zion, and utter his voice from Jerusalem; and the heavens and the earth shall shake: but the LORD will be the hope of his people, and the strength of the children of Israel.",
        "So shall ye know that I am the LORD your God dwelling in Zion, my holy mountain: then shall Jerusalem be holy, and there shall no strangers pass through her any more.",
-       "And it shall come to pass in that day, that the mountains shall drop down new wine, and the hills shall flow with milk, and all the rivers of Judah shall flow with waters, and a fountain shall come forth out of the house of the LORD, and shall water the valley of Shittim.",
+       "And it shall come to pass in that day, that the mountains shall drop down new wine, and the hills shall flow with milk, and all the rivers of Judah shall flow with waters, and a fountain shall come forth of the house of the LORD, and shall water the valley of Shittim.",
        "Egypt shall be a desolation, and Edom shall be a desolate wilderness, for the violence against the children of Judah, because they have shed innocent blood in their land.",
        "But Judah shall dwell for ever, and Jerusalem from generation to generation.",
        "For I will cleanse their blood that I have not cleansed: for the LORD dwelleth in Zion."
@@ -104,4 +104,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Joel do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

@@ -72,7 +72,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.SecondThessalonians
        "And the Lord direct your hearts into the love of God, and into the patient waiting for Christ.",
        "Now we command you, brethren, in the name of our Lord Jesus Christ, that ye withdraw yourselves from every brother that walketh disorderly, and not after the tradition which he received of us.",
        "For yourselves know how ye ought to follow us: for we behaved not ourselves disorderly among you;",
-       "Neither did we eat any man’s bread for nought; but wrought with labour and travail night and day, that we might not be chargeable to any of you:",
+       "Neither did we eat any man's bread for nought; but wrought with labour and travail night and day, that we might not be chargeable to any of you:",
        "Not because we have not power, but to make ourselves an ensample unto you to follow us.",
        "For even when we were with you, this we commanded you, that if any would not work, neither should he eat.",
        "For we hear that there are some which walk among you disorderly, working not at all, but are busybodies.",
@@ -87,4 +87,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.SecondThessalonians
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

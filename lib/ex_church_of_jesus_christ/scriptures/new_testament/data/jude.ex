@@ -36,7 +36,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Jude do
        "Raging waves of the sea, foaming out their own shame; wandering stars, to whom is reserved the blackness of darkness for ever.",
        "And Enoch also, the seventh from Adam, prophesied of these, saying, Behold, the Lord cometh with ten thousands of his saints,",
        "To execute judgment upon all, and to convince all that are ungodly among them of all their ungodly deeds which they have ungodly committed, and of all their hard speeches which ungodly sinners have spoken against him.",
-       "These are murmurers, complainers, walking after their own lusts; and their mouth speaketh great swelling words, having men’s persons in admiration because of advantage.",
+       "These are murmurers, complainers, walking after their own lusts; and their mouth speaketh great swelling words, having men's persons in admiration because of advantage.",
        "But, beloved, remember ye the words which were spoken before of the apostles of our Lord Jesus Christ;",
        "How that they told you there should be mockers in the last time, who should walk after their own ungodly lusts.",
        "These be they who separate themselves, sensual, having not the Spirit.",
@@ -50,4 +50,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Jude do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

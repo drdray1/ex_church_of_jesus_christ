@@ -48,7 +48,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.James do
        "For if any be a hearer of the word, and not a doer, he is like unto a man beholding his natural face in a glass:",
        "For he beholdeth himself, and goeth his way, and straightway forgetteth what manner of man he was.",
        "But whoso looketh into the perfect law of liberty, and continueth therein, he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed.",
-       "If any man among you seem to be religious, and bridleth not his tongue, but deceiveth his own heart, this man’s religion is vain.",
+       "If any man among you seem to be religious, and bridleth not his tongue, but deceiveth his own heart, this man's religion is vain.",
        "Pure religion and undefiled before God and the Father is this, To visit the fatherless and widows in their affliction, and to keep himself unspotted from the world."
      ]},
     {2,
@@ -84,7 +84,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.James do
      [
        "My brethren, be not many masters, knowing that we shall receive the greater condemnation.",
        "For in many things we offend all. If any man offend not in word, the same is a perfect man, and able also to bridle the whole body.",
-       "Behold, we put bits in the horses’ mouths, that they may obey us; and we turn about their whole body.",
+       "Behold, we put bits in the horses' mouths, that they may obey us; and we turn about their whole body.",
        "Behold also the ships, which though they be so great, and are driven of fierce winds, yet are they turned about with a very small helm, whithersoever the governor listeth.",
        "Even so the tongue is a little member, and boasteth great things. Behold, how great a matter a little fire kindleth!",
        "And the tongue is a fire, a world of iniquity: so is the tongue among our members, that it defileth the whole body, and setteth on fire the course of nature; and it is set on fire of hell.",
@@ -98,7 +98,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.James do
        "But if ye have bitter envying and strife in your hearts, glory not, and lie not against the truth.",
        "This wisdom descendeth not from above, but is earthly, sensual, devilish.",
        "For where envying and strife is, there is confusion and every evil work.",
-       "But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be intreated, full of mercy and good fruits, without partiality, and without hypocrisy.",
+       "But the wisdom that is from above is first pure, then peaceable, gentle, and easy to be entreated, full of mercy and good fruits, without partiality, and without hypocrisy.",
        "And the fruit of righteousness is sown in peace of them that make peace."
      ]},
     {4,
@@ -147,4 +147,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.James do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end
