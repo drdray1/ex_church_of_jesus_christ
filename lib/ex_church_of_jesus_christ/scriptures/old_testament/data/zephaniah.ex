@@ -24,13 +24,13 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zephaniah do
      [
        "The word of the LORD which came unto Zephaniah the son of Cushi, the son of Gedaliah, the son of Amariah, the son of Hizkiah, in the days of Josiah the son of Amon, king of Judah.",
        "I will utterly consume all things from off the land, saith the LORD.",
-       "I will consume man and beast; I will consume the fowls of the heaven, and the fishes of the sea, and the stumblingblocks with the wicked: and I will cut off man from off the land, saith the LORD.",
+       "I will consume man and beast; I will consume the fowls of the heaven, and the fishes of the sea, and the stumblingblocks with the wicked; and I will cut off man from off the land, saith the LORD.",
        "I will also stretch out mine hand upon Judah, and upon all the inhabitants of Jerusalem; and I will cut off the remnant of Baal from this place, and the name of the Chemarims with the priests;",
        "And them that worship the host of heaven upon the housetops; and them that worship and that swear by the LORD, and that swear by Malcham;",
-       "And them that are turned back from the LORD; and those that have not sought the LORD, nor enquired for him.",
+       "And them that are turned back from the LORD; and those that have not sought the LORD, nor inquired for him.",
        "Hold thy peace at the presence of the Lord GOD: for the day of the LORD is at hand: for the LORD hath prepared a sacrifice, he hath bid his guests.",
-       "And it shall come to pass in the day of the LORD’s sacrifice, that I will punish the princes, and the king’s children, and all such as are clothed with strange apparel.",
-       "In the same day also will I punish all those that leap on the threshold, which fill their masters’ houses with violence and deceit.",
+       "And it shall come to pass in the day of the LORD's sacrifice, that I will punish the princes, and the king's children, and all such as are clothed with strange apparel.",
+       "In the same day also will I punish all those that leap on the threshold, which fill their masters' houses with violence and deceit.",
        "And it shall come to pass in that day, saith the LORD, that there shall be the noise of a cry from the fish gate, and an howling from the second, and a great crashing from the hills.",
        "Howl, ye inhabitants of Maktesh, for all the merchant people are cut down; all they that bear silver are cut off.",
        "And it shall come to pass at that time, that I will search Jerusalem with candles, and punish the men that are settled on their lees: that say in their heart, The LORD will not do good, neither will he do evil.",
@@ -39,13 +39,13 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zephaniah do
        "That day is a day of wrath, a day of trouble and distress, a day of wasteness and desolation, a day of darkness and gloominess, a day of clouds and thick darkness,",
        "A day of the trumpet and alarm against the fenced cities, and against the high towers.",
        "And I will bring distress upon men, that they shall walk like blind men, because they have sinned against the LORD: and their blood shall be poured out as dust, and their flesh as the dung.",
-       "Neither their silver nor their gold shall be able to deliver them in the day of the LORD’s wrath; but the whole land shall be devoured by the fire of his jealousy: for he shall make even a speedy riddance of all them that dwell in the land."
+       "Neither their silver nor their gold shall be able to deliver them in the day of the LORD's wrath; but the whole land shall be devoured by the fire of his jealousy: for he shall make even a speedy riddance of all them that dwell in the land."
      ]},
     {2,
      [
        "Gather yourselves together, yea, gather together, O nation not desired;",
-       "Before the decree bring forth, before the day pass as the chaff, before the fierce anger of the LORD come upon you, before the day of the LORD’s anger come upon you.",
-       "Seek ye the LORD, all ye meek of the earth, which have wrought his judgment; seek righteousness, seek meekness: it may be ye shall be hid in the day of the LORD’s anger.",
+       "Before the decree bring forth, before the day pass as the chaff, before the fierce anger of the LORD come upon you, before the day of the LORD's anger come upon you.",
+       "Seek ye the LORD, all ye meek of the earth, which have wrought his judgment; seek righteousness, seek meekness: it may be ye shall be hid in the day of the LORD's anger.",
        "For Gaza shall be forsaken, and Ashkelon a desolation: they shall drive out Ashdod at the noon day, and Ekron shall be rooted up.",
        "Woe unto the inhabitants of the sea coast, the nation of the Cherethites! the word of the LORD is against you; O Canaan, the land of the Philistines, I will even destroy thee, that there shall be no inhabitant.",
        "And the sea coast shall be dwellings and cottages for shepherds, and folds for flocks.",
@@ -56,7 +56,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zephaniah do
        "The LORD will be terrible unto them: for he will famish all the gods of the earth; and men shall worship him, every one from his place, even all the isles of the heathen.",
        "Ye Ethiopians also, ye shall be slain by my sword.",
        "And he will stretch out his hand against the north, and destroy Assyria; and will make Nineveh a desolation, and dry like a wilderness.",
-       "And flocks shall lie down in the midst of her, all the beasts of the nations: both the cormorant and the bittern shall lodge in the upper lintels of it; their voice shall sing in the windows; desolation shall be in the thresholds; for he shall uncover the cedar work.",
+       "And flocks shall lie down in the midst of her, all the beasts of the nations: both the cormorant and the bittern shall lodge in the upper lintels of it; their voice shall sing in the windows; desolation shall be in the thresholds: for he shall uncover the cedar work.",
        "This is the rejoicing city that dwelt carelessly, that said in her heart, I am, and there is none beside me: how is she become a desolation, a place for beasts to lie down in! every one that passeth by her shall hiss, and wag his hand."
      ]},
     {3,
@@ -85,4 +85,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zephaniah do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

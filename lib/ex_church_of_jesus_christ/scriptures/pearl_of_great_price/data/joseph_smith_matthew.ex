@@ -81,4 +81,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.PearlOfGreatPrice.Data.JosephSmithMat
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

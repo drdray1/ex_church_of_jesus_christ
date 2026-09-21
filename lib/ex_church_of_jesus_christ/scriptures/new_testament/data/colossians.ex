@@ -44,7 +44,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Colossians do
        "And you, that were sometime alienated and enemies in your mind by wicked works, yet now hath he reconciled",
        "In the body of his flesh through death, to present you holy and unblameable and unreproveable in his sight:",
        "If ye continue in the faith grounded and settled, and be not moved away from the hope of the gospel, which ye have heard, and which was preached to every creature which is under heaven; whereof I Paul am made a minister;",
-       "Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body’s sake, which is the church:",
+       "Who now rejoice in my sufferings for you, and fill up that which is behind of the afflictions of Christ in my flesh for his body's sake, which is the church:",
        "Whereof I am made a minister, according to the dispensation of God which is given to me for you, to fulfil the word of God;",
        "Even the mystery which hath been hid from ages and from generations, but now is made manifest to his saints:",
        "To whom God would make known what is the riches of the glory of this mystery among the Gentiles; which is Christ in you, the hope of glory:",
@@ -57,7 +57,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Colossians do
        "That their hearts might be comforted, being knit together in love, and unto all riches of the full assurance of understanding, to the acknowledgement of the mystery of God, and of the Father, and of Christ;",
        "In whom are hid all the treasures of wisdom and knowledge.",
        "And this I say, lest any man should beguile you with enticing words.",
-       "For though I be absent in the flesh, yet am I with you in the spirit, joying and beholding your order, and the stedfastness of your faith in Christ.",
+       "For though I be absent in the flesh, yet am I with you in the spirit, joying and beholding your order, and the steadfastness of your faith in Christ.",
        "As ye have therefore received Christ Jesus the Lord, so walk ye in him:",
        "Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving.",
        "Beware lest any man spoil you through philosophy and vain deceit, after the tradition of men, after the rudiments of the world, and not after Christ.",
@@ -75,7 +75,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Colossians do
        "Wherefore if ye be dead with Christ from the rudiments of the world, why, as though living in the world, are ye subject to ordinances,",
        "(Touch not; taste not; handle not;",
        "Which all are to perish with the using;) after the commandments and doctrines of men?",
-       "Which things have indeed a shew of wisdom in will worship, and humility, and neglecting of the body: not in any honour to the satisfying of the flesh."
+       "Which things have indeed a shew of wisdom in will worship, and humility, and neglecting of the body; not in any honour to the satisfying of the flesh."
      ]},
     {3,
      [
@@ -84,7 +84,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Colossians do
        "For ye are dead, and your life is hid with Christ in God.",
        "When Christ, who is our life, shall appear, then shall ye also appear with him in glory.",
        "Mortify therefore your members which are upon the earth; fornication, uncleanness, inordinate affection, evil concupiscence, and covetousness, which is idolatry:",
-       "For which things’ sake the wrath of God cometh on the children of disobedience:",
+       "For which things' sake the wrath of God cometh on the children of disobedience:",
        "In the which ye also walked some time, when ye lived in them.",
        "But now ye also put off all these; anger, wrath, malice, blasphemy, filthy communication out of your mouth.",
        "Lie not one to another, seeing that ye have put off the old man with his deeds;",
@@ -100,7 +100,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Colossians do
        "Husbands, love your wives, and be not bitter against them.",
        "Children, obey your parents in all things: for this is well pleasing unto the Lord.",
        "Fathers, provoke not your children to anger, lest they be discouraged.",
-       "Servants, obey in all things your masters according to the flesh; not with eyeservice, as menpleasers; but in singleness of heart, fearing God;",
+       "Servants, obey in all things your masters according to the flesh; not with eyeservice, as menpleasers; but in singleness of heart, fearing God:",
        "And whatsoever ye do, do it heartily, as to the Lord, and not unto men;",
        "Knowing that of the Lord ye shall receive the reward of the inheritance: for ye serve the Lord Christ.",
        "But he that doeth wrong shall receive for the wrong which he hath done: and there is no respect of persons."
@@ -116,7 +116,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Colossians do
        "All my state shall Tychicus declare unto you, who is a beloved brother, and a faithful minister and fellowservant in the Lord:",
        "Whom I have sent unto you for the same purpose, that he might know your estate, and comfort your hearts;",
        "With Onesimus, a faithful and beloved brother, who is one of you. They shall make known unto you all things which are done here.",
-       "Aristarchus my fellowprisoner saluteth you, and Marcus, sister’s son to Barnabas, (touching whom ye received commandments: if he come unto you, receive him;)",
+       "Aristarchus my fellowprisoner saluteth you, and Marcus, sister's son to Barnabas, (touching whom ye received commandments: if he come unto you, receive him;)",
        "And Jesus, which is called Justus, who are of the circumcision. These only are my fellowworkers unto the kingdom of God, which have been a comfort unto me.",
        "Epaphras, who is one of you, a servant of Christ, saluteth you, always labouring fervently for you in prayers, that ye may stand perfect and complete in all the will of God.",
        "For I bear him record, that he hath a great zeal for you, and them that are in Laodicea, and them in Hierapolis.",
@@ -129,4 +129,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Colossians do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

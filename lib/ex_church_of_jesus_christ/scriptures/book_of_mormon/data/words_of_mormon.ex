@@ -44,4 +44,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.WordsOfMormon do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

@@ -25,7 +25,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Habakkuk do
        "O LORD, how long shall I cry, and thou wilt not hear! even cry out unto thee of violence, and thou wilt not save!",
        "Why dost thou shew me iniquity, and cause me to behold grievance? for spoiling and violence are before me: and there are that raise up strife and contention.",
        "Therefore the law is slacked, and judgment doth never go forth: for the wicked doth compass about the righteous; therefore wrong judgment proceedeth.",
-       "Behold ye among the heathen, and regard, and wonder marvelously: for I will work a work in your days which ye will not believe, though it be told you.",
+       "Behold ye among the heathen, and regard, and wonder marvellously: for I will work a work in your days, which ye will not believe, though it be told you.",
        "For, lo, I raise up the Chaldeans, that bitter and hasty nation, which shall march through the breadth of the land, to possess the dwellingplaces that are not theirs.",
        "They are terrible and dreadful: their judgment and their dignity shall proceed of themselves.",
        "Their horses also are swifter than the leopards, and are more fierce than the evening wolves: and their horsemen shall spread themselves, and their horsemen shall come from far; they shall fly as the eagle that hasteth to eat.",
@@ -48,7 +48,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Habakkuk do
        "Yea also, because he transgresseth by wine, he is a proud man, neither keepeth at home, who enlargeth his desire as hell, and is as death, and cannot be satisfied, but gathereth unto him all nations, and heapeth unto him all people:",
        "Shall not all these take up a parable against him, and a taunting proverb against him, and say, Woe to him that increaseth that which is not his! how long? and to him that ladeth himself with thick clay!",
        "Shall they not rise up suddenly that shall bite thee, and awake that shall vex thee, and thou shalt be for booties unto them?",
-       "Because thou hast spoiled many nations, all the remnant of the people shall spoil thee; because of men’s blood, and for the violence of the land, of the city, and of all that dwell therein.",
+       "Because thou hast spoiled many nations, all the remnant of the people shall spoil thee; because of men's blood, and for the violence of the land, of the city, and of all that dwell therein.",
        "Woe to him that coveteth an evil covetousness to his house, that he may set his nest on high, that he may be delivered from the power of evil!",
        "Thou hast consulted shame to thy house by cutting off many people, and hast sinned against thy soul.",
        "For the stone shall cry out of the wall, and the beam out of the timber shall answer it.",
@@ -56,8 +56,8 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Habakkuk do
        "Behold, is it not of the LORD of hosts that the people shall labour in the very fire, and the people shall weary themselves for very vanity?",
        "For the earth shall be filled with the knowledge of the glory of the LORD, as the waters cover the sea.",
        "Woe unto him that giveth his neighbour drink, that puttest thy bottle to him, and makest him drunken also, that thou mayest look on their nakedness!",
-       "Thou art filled with shame for glory: drink thou also, and let thy foreskin be uncovered: the cup of the LORD’s right hand shall be turned unto thee, and shameful spewing shall be on thy glory.",
-       "For the violence of Lebanon shall cover thee, and the spoil of beasts, which made them afraid, because of men’s blood, and for the violence of the land, of the city, and of all that dwell therein.",
+       "Thou art filled with shame for glory: drink thou also, and let thy foreskin be uncovered: the cup of the LORD's right hand shall be turned unto thee, and shameful spewing shall be on thy glory.",
+       "For the violence of Lebanon shall cover thee, and the spoil of beasts, which made them afraid, because of men's blood, and for the violence of the land, of the city, and of all that dwell therein.",
        "What profiteth the graven image that the maker thereof hath graven it; the molten image, and a teacher of lies, that the maker of his work trusteth therein, to make dumb idols?",
        "Woe unto him that saith to the wood, Awake; to the dumb stone, Arise, it shall teach! Behold, it is laid over with gold and silver, and there is no breath at all in the midst of it.",
        "But the LORD is in his holy temple: let all the earth keep silence before him."
@@ -82,9 +82,11 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Habakkuk do
        "When I heard, my belly trembled; my lips quivered at the voice: rottenness entered into my bones, and I trembled in myself, that I might rest in the day of trouble: when he cometh up unto the people, he will invade them with his troops.",
        "Although the fig tree shall not blossom, neither shall fruit be in the vines; the labour of the olive shall fail, and the fields shall yield no meat; the flock shall be cut off from the fold, and there shall be no herd in the stalls:",
        "Yet I will rejoice in the LORD, I will joy in the God of my salvation.",
-       "The LORD God is my strength, and he will make my feet like hinds’ feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments."
+       "The LORD God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments."
      ]}
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

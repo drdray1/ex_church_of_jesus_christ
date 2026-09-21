@@ -36,7 +36,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.Moroni do
      [
        "The manner which the disciples, who were called the elders of the church, ordained priests and teachers—",
        "After they had prayed unto the Father in the name of Christ, they laid their hands upon them, and said:",
-       "In the name of Jesus Christ I ordain you to be a priest, (or, if he be a teacher) I ordain you to be a teacher, to preach repentance and remission of sins through Jesus Christ, by the endurance of faith on his name to the end. Amen.",
+       "In the name of Jesus Christ I ordain you to be a priest (or if he be a teacher, I ordain you to be a teacher) to preach repentance and remission of sins through Jesus Christ, by the endurance of faith on his name to the end. Amen.",
        "And after this manner did they ordain priests and teachers, according to the gifts and callings of God unto men; and they ordained them by the power of the Holy Ghost, which was in them."
      ]},
     {4,
@@ -68,7 +68,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.Moroni do
        "And now I, Mormon, speak unto you, my beloved brethren; and it is by the grace of God the Father, and our Lord Jesus Christ, and his holy will, because of the gift of his calling unto me, that I am permitted to speak unto you at this time.",
        "Wherefore, I would speak unto you that are of the church, that are the peaceable followers of Christ, and that have obtained a sufficient hope by which ye can enter into the rest of the Lord, from this time henceforth until ye shall rest with him in heaven.",
        "And now my brethren, I judge these things of you because of your peaceable walk with the children of men.",
-       "For I remember the word of God, which saith by their works ye shall know them; for if their works be good, then they are good also.",
+       "For I remember the word of God which saith by their works ye shall know them; for if their works be good, then they are good also.",
        "For behold, God hath said a man being evil cannot do that which is good; for if he offereth a gift, or prayeth unto God, except he shall do it with real intent it profiteth him nothing.",
        "For behold, it is not counted unto him for righteousness.",
        "For behold, if a man being evil giveth a gift, he doeth it grudgingly; wherefore it is counted unto him the same as if he had retained the gift; wherefore he is counted evil before God.",
@@ -89,12 +89,12 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.Moroni do
        "And God also declared unto prophets, by his own mouth, that Christ should come.",
        "And behold, there were divers ways that he did manifest things unto the children of men, which were good; and all things which are good cometh of Christ; otherwise men were fallen, and there could no good thing come unto them.",
        "Wherefore, by the ministering of angels, and by every word which proceeded forth out of the mouth of God, men began to exercise faith in Christ; and thus by faith, they did lay hold upon every good thing; and thus it was until the coming of Christ.",
-       "And after that he came men also were saved by faith in his name; and by faith, they become the sons of God. And as sure as Christ liveth he spake these words unto our fathers, saying: Whatsoever thing ye shall ask the Father in my name, which is good, in faith believing that ye shall receive, behold, it shall be done unto you.",
+       "And after that he came men also were saved by faith in his name; and by faith, they become the sons of God. And as surely as Christ liveth he spake these words unto our fathers, saying: Whatsoever thing ye shall ask the Father in my name, which is good, in faith believing that ye shall receive, behold, it shall be done unto you.",
        "Wherefore, my beloved brethren, have miracles ceased because Christ hath ascended into heaven, and hath sat down on the right hand of God, to claim of the Father his rights of mercy which he hath upon the children of men?",
        "For he hath answered the ends of the law, and he claimeth all those who have faith in him; and they who have faith in him will cleave unto every good thing; wherefore he advocateth the cause of the children of men; and he dwelleth eternally in the heavens.",
        "And because he hath done this, my beloved brethren, have miracles ceased? Behold I say unto you, Nay; neither have angels ceased to minister unto the children of men.",
        "For behold, they are subject unto him, to minister according to the word of his command, showing themselves unto them of strong faith and a firm mind in every form of godliness.",
-       "And the office of their ministry is to call men unto repentance, and to fulfill and to do the work of the covenants of the Father, which he hath made unto the children of men, to prepare the way among the children of men, by declaring the word of Christ unto the chosen vessels of the Lord, that they may bear testimony of him.",
+       "And the office of their ministry is to call men unto repentance, and to fulfil and to do the work of the covenants of the Father, which he hath made unto the children of men, to prepare the way among the children of men, by declaring the word of Christ unto the chosen vessels of the Lord, that they may bear testimony of him.",
        "And by so doing, the Lord God prepareth the way that the residue of men may have faith in Christ, that the Holy Ghost may have place in their hearts, according to the power thereof; and after this manner bringeth to pass the Father, the covenants which he hath made unto the children of men.",
        "And Christ hath said: If ye will have faith in me ye shall have power to do whatsoever thing is expedient in me.",
        "And he hath said: Repent all ye ends of the earth, and come unto me, and be baptized in my name, and have faith in me, that ye may be saved.",
@@ -128,7 +128,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.Moroni do
        "And their little children need no repentance, neither baptism. Behold, baptism is unto repentance to the fulfilling the commandments unto the remission of sins.",
        "But little children are alive in Christ, even from the foundation of the world; if not so, God is a partial God, and also a changeable God, and a respecter to persons; for how many little children have died without baptism!",
        "Wherefore, if little children could not be saved without baptism, these must have gone to an endless hell.",
-       "Behold I say unto you, that he that supposeth that little children need baptism is in the gall of bitterness and in the bonds of iniquity, for he hath neither faith, hope, nor charity; wherefore, should he be cut off while in the thought, he must go down to hell.",
+       "Behold I say unto you, that he that supposeth that little children need baptism is in the gall of bitterness and in the bonds of iniquity; for he hath neither faith, hope, nor charity; wherefore, should he be cut off while in the thought, he must go down to hell.",
        "For awful is the wickedness to suppose that God saveth one child because of baptism, and the other must perish because he hath no baptism.",
        "Wo be unto them that shall pervert the ways of the Lord after this manner, for they shall perish except they repent. Behold, I speak with boldness, having authority from God; and I fear not what man can do; for perfect love casteth out all fear.",
        "And I am filled with charity, which is everlasting love; wherefore, all children are alike unto me; wherefore, I love little children with a perfect love; and they are all alike and partakers of salvation.",
@@ -179,7 +179,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.Moroni do
      [
        "Now I, Moroni, write somewhat as seemeth me good; and I write unto my brethren, the Lamanites; and I would that they should know that more than four hundred and twenty years have passed away since the sign was given of the coming of Christ.",
        "And I seal up these records, after I have spoken a few words by way of exhortation unto you.",
-       "Behold, I would exhort you that when ye shall read these things, if it be wisdom in God that ye should read them, that ye would remember how merciful the Lord hath been unto the children of men, from the creation of Adam even down unto the time that ye shall receive these things, and ponder it in your hearts.",
+       "Behold, I would exhort you that when ye shall read these things, if it be wisdom in God that ye should read them, that ye would remember how merciful the Lord hath been unto the children of men, from the creation of Adam even down until the time that ye shall receive these things, and ponder it in your hearts.",
        "And when ye shall receive these things, I would exhort you that ye would ask God, the Eternal Father, in the name of Christ, if these things are not true; and if ye shall ask with a sincere heart, with real intent, having faith in Christ, he will manifest the truth of it unto you, by the power of the Holy Ghost.",
        "And by the power of the Holy Ghost ye may know the truth of all things.",
        "And whatsoever thing is good is just and true; wherefore, nothing that is good denieth the Christ, but acknowledgeth that he is.",
@@ -208,11 +208,15 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.Moroni do
        "And God shall show unto you, that that which I have written is true.",
        "And again I would exhort you that ye would come unto Christ, and lay hold upon every good gift, and touch not the evil gift, nor the unclean thing.",
        "And awake, and arise from the dust, O Jerusalem; yea, and put on thy beautiful garments, O daughter of Zion; and strengthen thy stakes and enlarge thy borders forever, that thou mayest no more be confounded, that the covenants of the Eternal Father which he hath made unto thee, O house of Israel, may be fulfilled.",
-       "Yea, come unto Christ, and be perfected in him, and deny yourselves of all ungodliness; and if ye shall deny yourselves of all ungodliness and love God with all your might, mind and strength, then is his grace sufficient for you, that by his grace ye may be perfect in Christ; and if by the grace of God ye are perfect in Christ, ye can in nowise deny the power of God.",
+       "Yea, come unto Christ, and be perfected in him, and deny yourselves of all ungodliness; and if ye shall deny yourselves of all ungodliness, and love God with all your might, mind and strength, then is his grace sufficient for you, that by his grace ye may be perfect in Christ; and if by the grace of God ye are perfect in Christ, ye can in nowise deny the power of God.",
        "And again, if ye by the grace of God are perfect in Christ, and deny not his power, then are ye sanctified in Christ by the grace of God, through the shedding of the blood of Christ, which is in the covenant of the Father unto the remission of your sins, that ye become holy, without spot.",
        "And now I bid unto all, farewell. I soon go to rest in the paradise of God, until my spirit and body shall again reunite, and I am brought forth triumphant through the air, to meet you before the pleasing bar of the great Jehovah, the Eternal Judge of both quick and dead. Amen."
      ]}
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{
+    9 => "The second epistle of Mormon to his son Moroni."
+  }
 end

@@ -75,7 +75,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zechariah do
      ]},
     {4,
      [
-       "And the angel that talked with me came again, and waked me, as a man that is wakened out of his sleep.",
+       "And the angel that talked with me came again, and waked me, as a man that is wakened out of his sleep,",
        "And said unto me, What seest thou? And I said, I have looked, and behold a candlestick all of gold, with a bowl upon the top of it, and his seven lamps thereon, and seven pipes to the seven lamps, which are upon the top thereof:",
        "And two olive trees by it, one upon the right side of the bowl, and the other upon the left side thereof.",
        "So I answered and spake to the angel that talked with me, saying, What are these, my lord?",
@@ -88,7 +88,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zechariah do
        "Then answered I, and said unto him, What are these two olive trees upon the right side of the candlestick and upon the left side thereof?",
        "And I answered again, and said unto him, What be these two olive branches which through the two golden pipes empty the golden oil out of themselves?",
        "And he answered me and said, Knowest thou not what these be? And I said, No, my lord.",
-       "Then said he, These are the two anointed ones, that stand by the LORD of the whole earth."
+       "Then said he, These are the two anointed ones, that stand by the Lord of the whole earth."
      ]},
     {5,
      [
@@ -110,7 +110,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zechariah do
        "In the first chariot were red horses; and in the second chariot black horses;",
        "And in the third chariot white horses; and in the fourth chariot grisled and bay horses.",
        "Then I answered and said unto the angel that talked with me, What are these, my lord?",
-       "And the angel answered and said unto me, These are the four spirits of the heavens, which go forth from standing before the LORD of all the earth.",
+       "And the angel answered and said unto me, These are the four spirits of the heavens, which go forth from standing before the Lord of all the earth.",
        "The black horses which are therein go forth into the north country; and the white go forth after them; and the grisled go forth toward the south country.",
        "And the bay went forth, and sought to go that they might walk to and fro through the earth: and he said, Get you hence, walk to and fro through the earth. So they walked to and fro through the earth.",
        "Then cried he upon me, and spake unto me, saying, Behold, these that go toward the north country have quieted my spirit in the north country.",
@@ -125,7 +125,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zechariah do
     {7,
      [
        "And it came to pass in the fourth year of king Darius, that the word of the LORD came unto Zechariah in the fourth day of the ninth month, even in Chisleu;",
-       "When they had sent unto the house of God Sherezer and Regemmelech, and their men, to pray before the LORD,",
+       "When they had sent unto the house of God Sherezer and Regem-melech, and their men, to pray before the LORD,",
        "And to speak unto the priests which were in the house of the LORD of hosts, and to the prophets, saying, Should I weep in the fifth month, separating myself, as I have done these so many years?",
        "Then came the word of the LORD of hosts unto me, saying,",
        "Speak unto all the people of the land, and to the priests, saying, When ye fasted and mourned in the fifth and seventh month, even those seventy years, did ye at all fast unto me, even to me?",
@@ -170,7 +170,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zechariah do
        "The burden of the word of the LORD in the land of Hadrach, and Damascus shall be the rest thereof: when the eyes of man, as of all the tribes of Israel, shall be toward the LORD.",
        "And Hamath also shall border thereby; Tyrus, and Zidon, though it be very wise.",
        "And Tyrus did build herself a strong hold, and heaped up silver as the dust, and fine gold as the mire of the streets.",
-       "Behold, the LORD will cast her out, and he will smite her power in the sea; and she shall be devoured with fire.",
+       "Behold, the Lord will cast her out, and he will smite her power in the sea; and she shall be devoured with fire.",
        "Ashkelon shall see it, and fear; Gaza also shall see it, and be very sorrowful, and Ekron; for her expectation shall be ashamed; and the king shall perish from Gaza, and Ashkelon shall not be inhabited.",
        "And a bastard shall dwell in Ashdod, and I will cut off the pride of the Philistines.",
        "And I will take away his blood out of his mouth, and his abominations from between his teeth: but he that remaineth, even he, shall be for our God, and he shall be as a governor in Judah, and Ekron as a Jebusite.",
@@ -180,7 +180,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zechariah do
        "As for thee also, by the blood of thy covenant I have sent forth thy prisoners out of the pit wherein is no water.",
        "Turn you to the strong hold, ye prisoners of hope: even to day do I declare that I will render double unto thee;",
        "When I have bent Judah for me, filled the bow with Ephraim, and raised up thy sons, O Zion, against thy sons, O Greece, and made thee as the sword of a mighty man.",
-       "And the LORD shall be seen over them, and his arrow shall go forth as the lightning: and the LORD God shall blow the trumpet, and shall go with whirlwinds of the south.",
+       "And the LORD shall be seen over them, and his arrow shall go forth as the lightning: and the Lord GOD shall blow the trumpet, and shall go with whirlwinds of the south.",
        "The LORD of hosts shall defend them; and they shall devour, and subdue with sling stones; and they shall drink, and make a noise as through wine; and they shall be filled like bowls, and as the corners of the altar.",
        "And the LORD their God shall save them in that day as the flock of his people: for they shall be as the stones of a crown, lifted up as an ensign upon his land.",
        "For how great is his goodness, and how great is his beauty! corn shall make the young men cheerful, and new wine the maids."
@@ -207,7 +207,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zechariah do
        "There is a voice of the howling of the shepherds; for their glory is spoiled: a voice of the roaring of young lions; for the pride of Jordan is spoiled.",
        "Thus saith the LORD my God; Feed the flock of the slaughter;",
        "Whose possessors slay them, and hold themselves not guilty: and they that sell them say, Blessed be the LORD; for I am rich: and their own shepherds pity them not.",
-       "For I will no more pity the inhabitants of the land, saith the LORD: but, lo, I will deliver the men every one into his neighbour’s hand, and into the hand of his king: and they shall smite the land, and out of their hand I will not deliver them.",
+       "For I will no more pity the inhabitants of the land, saith the LORD: but, lo, I will deliver the men every one into his neighbour's hand, and into the hand of his king: and they shall smite the land, and out of their hand I will not deliver them.",
        "And I will feed the flock of slaughter, even you, O poor of the flock. And I took unto me two staves; the one I called Beauty, and the other I called Bands; and I fed the flock.",
        "Three shepherds also I cut off in one month; and my soul lothed them, and their soul also abhorred me.",
        "Then said I, I will not feed you: that that dieth, let it die; and that that is to be cut off, let it be cut off; and let the rest eat every one the flesh of another.",
@@ -260,7 +260,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zechariah do
        "But it shall be one day which shall be known to the LORD, not day, nor night: but it shall come to pass, that at evening time it shall be light.",
        "And it shall be in that day, that living waters shall go out from Jerusalem; half of them toward the former sea, and half of them toward the hinder sea: in summer and in winter shall it be.",
        "And the LORD shall be king over all the earth: in that day shall there be one LORD, and his name one.",
-       "All the land shall be turned as a plain from Geba to Rimmon south of Jerusalem: and it shall be lifted up, and inhabited in her place, from Benjamin’s gate unto the place of the first gate, unto the corner gate, and from the tower of Hananeel unto the king’s winepresses.",
+       "All the land shall be turned as a plain from Geba to Rimmon south of Jerusalem: and it shall be lifted up, and inhabited in her place, from Benjamin's gate unto the place of the first gate, unto the corner gate, and from the tower of Hananeel unto the king's winepresses.",
        "And men shall dwell in it, and there shall be no more utter destruction; but Jerusalem shall be safely inhabited.",
        "And this shall be the plague wherewith the LORD will smite all the people that have fought against Jerusalem; Their flesh shall consume away while they stand upon their feet, and their eyes shall consume away in their holes, and their tongue shall consume away in their mouth.",
        "And it shall come to pass in that day, that a great tumult from the LORD shall be among them; and they shall lay hold every one on the hand of his neighbour, and his hand shall rise up against the hand of his neighbour.",
@@ -270,10 +270,12 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Zechariah do
        "And it shall be, that whoso will not come up of all the families of the earth unto Jerusalem to worship the King, the LORD of hosts, even upon them shall be no rain.",
        "And if the family of Egypt go not up, and come not, that have no rain; there shall be the plague, wherewith the LORD will smite the heathen that come not up to keep the feast of tabernacles.",
        "This shall be the punishment of Egypt, and the punishment of all nations that come not up to keep the feast of tabernacles.",
-       "In that day shall there be upon the bells of the horses, HOLINESS UNTO THE LORD; and the pots in the LORD’s house shall be like the bowls before the altar.",
+       "In that day shall there be upon the bells of the horses, HOLINESS UNTO THE LORD; and the pots in the LORD's house shall be like the bowls before the altar.",
        "Yea, every pot in Jerusalem and in Judah shall be holiness unto the LORD of hosts: and all they that sacrifice shall come and take of them, and seethe therein: and in that day there shall be no more the Canaanite in the house of the LORD of hosts."
      ]}
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

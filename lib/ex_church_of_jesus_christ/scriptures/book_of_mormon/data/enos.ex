@@ -38,7 +38,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.Enos do
        "And I, Enos, knew it would be according to the covenant which he had made; wherefore my soul did rest.",
        "And the Lord said unto me: Thy fathers have also required of me this thing; and it shall be done unto them according to their faith; for their faith was like unto thine.",
        "And now it came to pass that I, Enos, went about among the people of Nephi, prophesying of things to come, and testifying of the things which I had heard and seen.",
-       "And I bear record that the people of Nephi did seek diligently to restore the Lamanites unto the true faith in God. But our labors were vain; their hatred was fixed, and they were led by their evil nature that they became wild, and ferocious, and a bloodthirsty people, full of idolatry and filthiness; feeding upon beasts of prey; dwelling in tents, and wandering about in the wilderness with a short skin girdle about their loins and their heads shaven; and their skill was in the bow, and in the cimeter, and the ax. And many of them did eat nothing save it was raw meat; and they were continually seeking to destroy us.",
+       "And I bear record that the people of Nephi did seek diligently to restore the Lamanites unto the true faith in God. But our labors were vain; their hatred was fixed, and they were led by their evil nature that they became wild, and ferocious, and a blood-thirsty people, full of idolatry and filthiness; feeding upon beasts of prey; dwelling in tents, and wandering about in the wilderness with a short skin girdle about their loins and their heads shaven; and their skill was in the bow, and in the cimeter, and the ax. And many of them did eat nothing save it was raw meat; and they were continually seeking to destroy us.",
        "And it came to pass that the people of Nephi did till the land, and raise all manner of grain, and of fruit, and flocks of herds, and flocks of all manner of cattle of every kind, and goats, and wild goats, and also many horses.",
        "And there were exceedingly many prophets among us. And the people were a stiffnecked people, hard to understand.",
        "And there was nothing save it was exceeding harshness, preaching and prophesying of wars, and contentions, and destructions, and continually reminding them of death, and the duration of eternity, and the judgments and the power of God, and all these things—stirring them up continually to keep them in the fear of the Lord. I say there was nothing short of these things, and exceedingly great plainness of speech, would keep them from going down speedily to destruction. And after this manner do I write concerning them.",
@@ -50,4 +50,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.Enos do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

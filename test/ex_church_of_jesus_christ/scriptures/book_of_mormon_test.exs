@@ -54,7 +54,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormonTest do
              ~r/the Eternal Judge of both quick and dead\. Amen\.$/
   end
 
-  test "verses that were run together in the source text are split" do
+  test "verse boundaries" do
     assert BookOfMormon.verse!(:first_nephi, 2, 12).text =~ ~r/who had created them\.$/
     assert BookOfMormon.verse!(:first_nephi, 2, 13).text =~ ~r/^Neither did they believe/
   end
@@ -103,8 +103,17 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormonTest do
   end
 
   test "front matter" do
-    assert ["THE BOOK OF MORMON" | _] = BookOfMormon.title_page()
-    assert "DAVID WHITMER" in BookOfMormon.testimony_of_three_witnesses()
-    assert "HYRUM SMITH" in BookOfMormon.testimony_of_eight_witnesses()
+    assert ["The Book of Mormon" | _] = BookOfMormon.title_page()
+    assert "David Whitmer" in BookOfMormon.testimony_of_three_witnesses()
+    assert "Hyrum Smith" in BookOfMormon.testimony_of_eight_witnesses()
+  end
+
+  test "original book and chapter headings" do
+    assert BookOfMormon.chapter!(:mosiah, 9).heading =~ ~r/^The Record of Zeniff/
+    assert BookOfMormon.chapter!(:alma, 5).heading =~ ~r/^The words which Alma/
+    assert BookOfMormon.chapter!(:alma, 6).heading == nil
+
+    assert ["An account of Lehi and his wife Sariah" <> _] =
+             BookOfMormon.book!("1 Ne.").introduction
   end
 end

@@ -24,7 +24,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Amos do
        "The words of Amos, who was among the herdmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah, and in the days of Jeroboam the son of Joash king of Israel, two years before the earthquake.",
        "And he said, The LORD will roar from Zion, and utter his voice from Jerusalem; and the habitations of the shepherds shall mourn, and the top of Carmel shall wither.",
        "Thus saith the LORD; For three transgressions of Damascus, and for four, I will not turn away the punishment thereof; because they have threshed Gilead with threshing instruments of iron:",
-       "But I will send a fire into the house of Hazael, which shall devour the palaces of Benhadad.",
+       "But I will send a fire into the house of Hazael, which shall devour the palaces of Ben-hadad.",
        "I will break also the bar of Damascus, and cut off the inhabitant from the plain of Aven, and him that holdeth the sceptre from the house of Eden: and the people of Syria shall go into captivity unto Kir, saith the LORD.",
        "Thus saith the LORD; For three transgressions of Gaza, and for four, I will not turn away the punishment thereof; because they carried away captive the whole captivity, to deliver them up to Edom:",
        "But I will send a fire on the wall of Gaza, which shall devour the palaces thereof:",
@@ -40,7 +40,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Amos do
     {2,
      [
        "Thus saith the LORD; For three transgressions of Moab, and for four, I will not turn away the punishment thereof; because he burned the bones of the king of Edom into lime:",
-       "But I will send a fire upon Moab, and it shall devour the palaces of Kirioth: and Moab shall die with tumult, with shouting, and with the sound of the trumpet:",
+       "But I will send a fire upon Moab, and it shall devour the palaces of Kerioth: and Moab shall die with tumult, with shouting, and with the sound of the trumpet:",
        "And I will cut off the judge from the midst thereof, and will slay all the princes thereof with him, saith the LORD.",
        "Thus saith the LORD; For three transgressions of Judah, and for four, I will not turn away the punishment thereof; because they have despised the law of the LORD, and have not kept his commandments, and their lies caused them to err, after the which their fathers have walked:",
        "But I will send a fire upon Judah, and it shall devour the palaces of Jerusalem.",
@@ -71,7 +71,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Amos do
        "Therefore thus saith the Lord GOD; An adversary there shall be even round about the land; and he shall bring down thy strength from thee, and thy palaces shall be spoiled.",
        "Thus saith the LORD; As the shepherd taketh out of the mouth of the lion two legs, or a piece of an ear; so shall the children of Israel be taken out that dwell in Samaria in the corner of a bed, and in Damascus in a couch.",
        "Hear ye, and testify in the house of Jacob, saith the Lord GOD, the God of hosts,",
-       "That in the day that I shall visit the transgressions of Israel upon him I will also visit the altars of Bethel: and the horns of the altar shall be cut off, and fall to the ground.",
+       "That in the day that I shall visit the transgressions of Israel upon him I will also visit the altars of Beth-el: and the horns of the altar shall be cut off, and fall to the ground.",
        "And I will smite the winter house with the summer house; and the houses of ivory shall perish, and the great houses shall have an end, saith the LORD."
      ]},
     {4,
@@ -79,7 +79,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Amos do
        "Hear this word, ye kine of Bashan, that are in the mountain of Samaria, which oppress the poor, which crush the needy, which say to their masters, Bring, and let us drink.",
        "The Lord GOD hath sworn by his holiness, that, lo, the days shall come upon you, that he will take you away with hooks, and your posterity with fishhooks.",
        "And ye shall go out at the breaches, every cow at that which is before her; and ye shall cast them into the palace, saith the LORD.",
-       "Come to Bethel, and transgress; at Gilgal multiply transgression; and bring your sacrifices every morning, and your tithes after three years:",
+       "Come to Beth-el, and transgress; at Gilgal multiply transgression; and bring your sacrifices every morning, and your tithes after three years:",
        "And offer a sacrifice of thanksgiving with leaven, and proclaim and publish the free offerings: for this liketh you, O ye children of Israel, saith the Lord GOD.",
        "And I also have given you cleanness of teeth in all your cities, and want of bread in all your places: yet have ye not returned unto me, saith the LORD.",
        "And also I have withholden the rain from you, when there were yet three months to the harvest: and I caused it to rain upon one city, and caused it not to rain upon another city: one piece was rained upon, and the piece whereupon it rained not withered.",
@@ -96,8 +96,8 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Amos do
        "The virgin of Israel is fallen; she shall no more rise: she is forsaken upon her land; there is none to raise her up.",
        "For thus saith the Lord GOD; The city that went out by a thousand shall leave an hundred, and that which went forth by an hundred shall leave ten, to the house of Israel.",
        "For thus saith the LORD unto the house of Israel, Seek ye me, and ye shall live:",
-       "But seek not Bethel, nor enter into Gilgal, and pass not to Beersheba: for Gilgal shall surely go into captivity, and Bethel shall come to nought.",
-       "Seek the LORD, and ye shall live; lest he break out like fire in the house of Joseph, and devour it, and there be none to quench it in Bethel.",
+       "But seek not Beth-el, nor enter into Gilgal, and pass not to Beer-sheba: for Gilgal shall surely go into captivity, and Beth-el shall come to nought.",
+       "Seek the LORD, and ye shall live; lest he break out like fire in the house of Joseph, and devour it, and there be none to quench it in Beth-el.",
        "Ye who turn judgment to wormwood, and leave off righteousness in the earth,",
        "Seek him that maketh the seven stars and Orion, and turneth the shadow of death into the morning, and maketh the day dark with night: that calleth for the waters of the sea, and poureth them out upon the face of the earth: The LORD is his name:",
        "That strengtheneth the spoiled against the strong, so that the spoiled shall come against the fortress.",
@@ -107,7 +107,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Amos do
        "Therefore the prudent shall keep silence in that time; for it is an evil time.",
        "Seek good, and not evil, that ye may live: and so the LORD, the God of hosts, shall be with you, as ye have spoken.",
        "Hate the evil, and love the good, and establish judgment in the gate: it may be that the LORD God of hosts will be gracious unto the remnant of Joseph.",
-       "Therefore the LORD, the God of hosts, the LORD, saith thus; Wailing shall be in all streets; and they shall say in all the highways, Alas! alas! and they shall call the husbandman to mourning, and such as are skilful of lamentation to wailing.",
+       "Therefore the LORD, the God of hosts, the Lord, saith thus; Wailing shall be in all streets; and they shall say in all the highways, Alas! alas! and they shall call the husbandman to mourning, and such as are skilful of lamentation to wailing.",
        "And in all vineyards shall be wailing: for I will pass through thee, saith the LORD.",
        "Woe unto you that desire the day of the LORD! to what end is it for you? the day of the LORD is darkness, and not light.",
        "As if a man did flee from a lion, and a bear met him; or went into the house, and leaned his hand on the wall, and a serpent bit him.",
@@ -131,7 +131,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Amos do
        "Therefore now shall they go captive with the first that go captive, and the banquet of them that stretched themselves shall be removed.",
        "The Lord GOD hath sworn by himself, saith the LORD the God of hosts, I abhor the excellency of Jacob, and hate his palaces: therefore will I deliver up the city with all that is therein.",
        "And it shall come to pass, if there remain ten men in one house, that they shall die.",
-       "And a man’s uncle shall take him up, and he that burneth him, to bring out the bones out of the house, and shall say unto him that is by the sides of the house, Is there yet any with thee? and he shall say, No. Then shall he say, Hold thy tongue: for we may not make mention of the name of the LORD.",
+       "And a man's uncle shall take him up, and he that burneth him, to bring out the bones out of the house, and shall say unto him that is by the sides of the house, Is there yet any with thee? and he shall say, No. Then shall he say, Hold thy tongue: for we may not make mention of the name of the LORD.",
        "For, behold, the LORD commandeth, and he will smite the great house with breaches, and the little house with clefts.",
        "Shall horses run upon the rock? will one plow there with oxen? for ye have turned judgment into gall, and the fruit of righteousness into hemlock:",
        "Ye which rejoice in a thing of nought, which say, Have we not taken to us horns by our own strength?",
@@ -139,20 +139,20 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Amos do
      ]},
     {7,
      [
-       "Thus hath the Lord GOD shewed unto me; and, behold, he formed grasshoppers in the beginning of the shooting up of the latter growth; and, lo, it was the latter growth after the king’s mowings.",
+       "Thus hath the Lord GOD shewed unto me; and, behold, he formed grasshoppers in the beginning of the shooting up of the latter growth; and, lo, it was the latter growth after the king's mowings.",
        "And it came to pass, that when they had made an end of eating the grass of the land, then I said, O Lord GOD, forgive, I beseech thee: by whom shall Jacob arise? for he is small.",
        "The LORD repented for this: It shall not be, saith the LORD.",
        "Thus hath the Lord GOD shewed unto me: and, behold, the Lord GOD called to contend by fire, and it devoured the great deep, and did eat up a part.",
        "Then said I, O Lord GOD, cease, I beseech thee: by whom shall Jacob arise? for he is small.",
        "The LORD repented for this: This also shall not be, saith the Lord GOD.",
-       "Thus he shewed me: and, behold, the LORD stood upon a wall made by a plumbline, with a plumbline in his hand.",
-       "And the LORD said unto me, Amos, what seest thou? And I said, A plumbline. Then said the LORD, Behold, I will set a plumbline in the midst of my people Israel: I will not again pass by them any more:",
+       "Thus he shewed me: and, behold, the Lord stood upon a wall made by a plumbline, with a plumbline in his hand.",
+       "And the LORD said unto me, Amos, what seest thou? And I said, A plumbline. Then said the Lord, Behold, I will set a plumbline in the midst of my people Israel: I will not again pass by them any more:",
        "And the high places of Isaac shall be desolate, and the sanctuaries of Israel shall be laid waste; and I will rise against the house of Jeroboam with the sword.",
-       "Then Amaziah the priest of Bethel sent to Jeroboam king of Israel, saying, Amos hath conspired against thee in the midst of the house of Israel: the land is not able to bear all his words.",
+       "Then Amaziah the priest of Beth-el sent to Jeroboam king of Israel, saying, Amos hath conspired against thee in the midst of the house of Israel: the land is not able to bear all his words.",
        "For thus Amos saith, Jeroboam shall die by the sword, and Israel shall surely be led away captive out of their own land.",
        "Also Amaziah said unto Amos, O thou seer, go, flee thee away into the land of Judah, and there eat bread, and prophesy there:",
-       "But prophesy not again any more at Bethel: for it is the king’s chapel, and it is the king’s court.",
-       "Then answered Amos, and said to Amaziah, I was no prophet, neither was I a prophet’s son; but I was an herdman, and a gatherer of sycomore fruit:",
+       "But prophesy not again any more at Beth-el: for it is the king's chapel, and it is the king's court.",
+       "Then answered Amos, and said to Amaziah, I was no prophet, neither was I a prophet's son; but I was an herdman, and a gatherer of sycomore fruit:",
        "And the LORD took me as I followed the flock, and the LORD said unto me, Go, prophesy unto my people Israel.",
        "Now therefore hear thou the word of the LORD: Thou sayest, Prophesy not against Israel, and drop not thy word against the house of Isaac.",
        "Therefore thus saith the LORD; Thy wife shall be an harlot in the city, and thy sons and thy daughters shall fall by the sword, and thy land shall be divided by line; and thou shalt die in a polluted land: and Israel shall surely go into captivity forth of his land."
@@ -172,11 +172,11 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Amos do
        "Behold, the days come, saith the Lord GOD, that I will send a famine in the land, not a famine of bread, nor a thirst for water, but of hearing the words of the LORD:",
        "And they shall wander from sea to sea, and from the north even to the east, they shall run to and fro to seek the word of the LORD, and shall not find it.",
        "In that day shall the fair virgins and young men faint for thirst.",
-       "They that swear by the sin of Samaria, and say, Thy god, O Dan, liveth; and, The manner of Beersheba liveth; even they shall fall, and never rise up again."
+       "They that swear by the sin of Samaria, and say, Thy god, O Dan, liveth; and, The manner of Beer-sheba liveth; even they shall fall, and never rise up again."
      ]},
     {9,
      [
-       "I saw the LORD standing upon the altar: and he said, Smite the lintel of the door, that the posts may shake: and cut them in the head, all of them; and I will slay the last of them with the sword: he that fleeth of them shall not flee away, and he that escapeth of them shall not be delivered.",
+       "I saw the Lord standing upon the altar: and he said, Smite the lintel of the door, that the posts may shake: and cut them in the head, all of them; and I will slay the last of them with the sword: he that fleeth of them shall not flee away, and he that escapeth of them shall not be delivered.",
        "Though they dig into hell, thence shall mine hand take them; though they climb up to heaven, thence will I bring them down:",
        "And though they hide themselves in the top of Carmel, I will search and take them out thence; and though they be hid from my sight in the bottom of the sea, thence will I command the serpent, and he shall bite them:",
        "And though they go into captivity before their enemies, thence will I command the sword, and it shall slay them: and I will set mine eyes upon them for evil, and not for good.",
@@ -195,4 +195,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Amos do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

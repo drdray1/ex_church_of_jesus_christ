@@ -21,7 +21,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Titus do
   @chapters [
     {1,
      [
-       "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God’s elect, and the acknowledging of the truth which is after godliness;",
+       "Paul, a servant of God, and an apostle of Jesus Christ, according to the faith of God's elect, and the acknowledging of the truth which is after godliness;",
        "In hope of eternal life, which God, that cannot lie, promised before the world began;",
        "But hath in due times manifested his word through preaching, which is committed unto me according to the commandment of God our Saviour;",
        "To Titus, mine own son after the common faith: Grace, mercy, and peace, from God the Father and the Lord Jesus Christ our Saviour.",
@@ -31,7 +31,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Titus do
        "But a lover of hospitality, a lover of good men, sober, just, holy, temperate;",
        "Holding fast the faithful word as he hath been taught, that he may be able by sound doctrine both to exhort and to convince the gainsayers.",
        "For there are many unruly and vain talkers and deceivers, specially they of the circumcision:",
-       "Whose mouths must be stopped, who subvert whole houses, teaching things which they ought not, for filthy lucre’s sake.",
+       "Whose mouths must be stopped, who subvert whole houses, teaching things which they ought not, for filthy lucre's sake.",
        "One of themselves, even a prophet of their own, said, The Cretians are alway liars, evil beasts, slow bellies.",
        "This witness is true. Wherefore rebuke them sharply, that they may be sound in the faith;",
        "Not giving heed to Jewish fables, and commandments of men, that turn from the truth.",
@@ -77,4 +77,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Titus do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

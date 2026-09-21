@@ -1,74 +1,118 @@
-"""Converts a bcbooks/scriptures-json volume into volume JSON.
+"""Converts bcbooks/scriptures-json volumes into volume JSON.
 
-Source: https://github.com/bcbooks/scriptures-json (public domain; current
-2013-edition text without the Church's copyrighted headings, footnotes or
-introductions).
+Source: https://github.com/bcbooks/scriptures-json, which is dedicated to the
+public domain. It has the current (2013) edition's text without the Church's
+copyrighted chapter summaries, footnotes or introductions. It does keep text
+that is part of the scriptures, such as Psalm titles and the Book of Mormon's
+original book and chapter headings.
 
-    curl -sL -o dc.json  https://raw.githubusercontent.com/bcbooks/scriptures-json/master/doctrine-and-covenants.json
-    curl -sL -o pgp.json https://raw.githubusercontent.com/bcbooks/scriptures-json/master/pearl-of-great-price.json
-    python scripts/parse_bcbooks.py doctrine_and_covenants dc.json dc-volume.json
-    python scripts/parse_bcbooks.py pearl_of_great_price pgp.json pgp-volume.json
-    python scripts/generate_volume.py dc-volume.json
-    python scripts/generate_volume.py pgp-volume.json
+Book ids, names, abbreviations, URL slugs and aliases come from
+scripts/book_metadata.json.
+
+    python scripts/parse_bcbooks.py --download <source dir>
+    python scripts/parse_bcbooks.py <source dir> <out dir>
+    for f in <out dir>/*.json; do python scripts/generate_volume.py "$f"; done
+
+Keep <source dir> and <out dir> outside the repository.
 """
-import json, sys
+import json, os, sys, urllib.request
 
-# id, module, name, abbreviation, aliases
-DC_BOOK = ("doctrine_and_covenants", "DoctrineAndCovenants", "Doctrine and Covenants", "D&C",
-           ["dc", "d and c", "doctrine & covenants", "doctrine and covenant"])
-
-PGP_BOOKS = {
-    "moses": ("moses", "Moses", "Moses", "Moses", ["book of moses"]),
-    "abr": ("abraham", "Abraham", "Abraham", "Abr.", ["book of abraham", "abrah"]),
-    "js-m": ("joseph_smith_matthew", "JosephSmithMatthew", "Joseph Smith—Matthew", "JS—M",
-             ["jsm", "joseph smith matthew"]),
-    "js-h": ("joseph_smith_history", "JosephSmithHistory", "Joseph Smith—History", "JS—H",
-             ["joseph smith history"]),
-    "a-of-f": ("articles_of_faith", "ArticlesOfFaith", "Articles of Faith", "A of F",
-               ["aof", "aoff", "article of faith"]),
+BASE = "https://raw.githubusercontent.com/bcbooks/scriptures-json/master/"
+FILES = {
+    "old_testament": "old-testament.json",
+    "new_testament": "new-testament.json",
+    "book_of_mormon": "book-of-mormon.json",
+    "doctrine_and_covenants": "doctrine-and-covenants.json",
+    "pearl_of_great_price": "pearl-of-great-price.json",
 }
+METADATA = os.path.join(os.path.dirname(__file__), "book_metadata.json")
+
+
+def clean(text):
+    return " ".join(text.split())
 
 
 def verses(chapter):
     vs = chapter["verses"]
     assert [v["verse"] for v in vs] == list(range(1, len(vs) + 1)), chapter["reference"]
-    return [v["text"].strip() for v in vs]
+    return [clean(v["text"]) for v in vs]
 
 
-def doctrine_and_covenants(src):
-    book_id, module, name, abbr, aliases = DC_BOOK
-    sections = src["sections"]
-    assert [s["section"] for s in sections] == list(range(1, 139))
+def chapter(number, raw):
+    out = {"number": number, "verses": verses(raw)}
+    heading = raw.get("heading") or raw.get("note")
+    if heading:
+        out["heading"] = clean(heading)
+    return out
+
+
+def source_books(volume, src):
+    """Yields (lds_slug, introduction paragraphs, chapters) for each book."""
+    if volume == "doctrine_and_covenants":
+        sections = src["sections"]
+        assert [s["section"] for s in sections] == list(range(1, len(sections) + 1))
+        yield "dc", [], [chapter(s["section"], s) for s in sections]
+        return
+
+    for book in src["books"]:
+        chapters = [chapter(c["chapter"], c) for c in book["chapters"]]
+        assert [c["number"] for c in chapters] == list(range(1, len(chapters) + 1)), book["book"]
+        intro = [clean(book["heading"])] if book.get("heading") else []
+        yield book["lds_slug"], intro, chapters
+
+
+def front_matter(volume, src):
+    if volume == "book_of_mormon":
+        tp = src["title_page"]
+        front = {"title_page": [tp["title"], tp["subtitle"], *tp["text"], tp["translated_by"]]}
+        for t in src["testimonies"]:
+            key = "testimony_of_" + t["title"].lower().removeprefix("testimony of ").replace(" ", "_")
+            front[key] = [t["text"], *t["witnesses"]]
+        return front
+    if volume == "new_testament":
+        tp = src["title_page"]
+        return {"title_page": [tp["title"], tp["subtitle"], tp["text"]]}
+    if volume == "doctrine_and_covenants":
+        return {"title_page": [src["title"], src["subtitle"], src["subsubtitle"]]}
+    if volume == "pearl_of_great_price":
+        front = {"title_page": [src["title"], src["subtitle"]]}
+        for book in src["books"]:
+            for fac in book.get("facsimiles", []):
+                front[f"facsimile_{fac['number']}"] = [fac["title"], *fac["explanations"]]
+        return front
+    return {}
+
+
+def convert(meta, src):
+    volume = meta["volume"]
+    books = []
+    for book_meta, (slug, intro, chapters) in zip(meta["books"], source_books(volume, src), strict=True):
+        assert book_meta["url_slug"] == slug, (book_meta["url_slug"], slug)
+        books.append({**book_meta, "introduction": intro, "chapters": chapters})
     return {
-        "volume": {"id": "doctrine_and_covenants", "module": "DoctrineAndCovenants"},
-        "front_matter": {"title_page": [src["title"], src["subtitle"], src["subsubtitle"]]},
-        "books": [{
-            "id": book_id, "module": module, "name": name, "abbreviation": abbr,
-            "url_slug": "dc", "title": src["title"], "subtitle": src["subsubtitle"],
-            "introduction": [], "aliases": aliases,
-            "chapters": [{"number": s["section"], "verses": verses(s)} for s in sections],
-        }],
+        "volume": {"id": volume, "module": meta["module"]},
+        "front_matter": front_matter(volume, src),
+        "books": books,
     }
 
 
-def pearl_of_great_price(src):
-    books, front = [], {"title_page": [src["title"], src["subtitle"]]}
-    for b in src["books"]:
-        book_id, module, name, abbr, aliases = PGP_BOOKS[b["lds_slug"]]
-        books.append({
-            "id": book_id, "module": module, "name": name, "abbreviation": abbr,
-            "url_slug": b["lds_slug"], "title": b["full_title"], "subtitle": b.get("full_subtitle"),
-            "introduction": [], "aliases": aliases,
-            "chapters": [{"number": c["chapter"], "verses": verses(c)} for c in b["chapters"]],
-        })
-        for fac in b.get("facsimiles", []):
-            front[f"facsimile_{fac['number']}"] = [fac["title"]] + fac["explanations"]
-    return {"volume": {"id": "pearl_of_great_price", "module": "PearlOfGreatPrice"},
-            "front_matter": front, "books": books}
+def main(args):
+    if args[0] == "--download":
+        os.makedirs(args[1], exist_ok=True)
+        for name in FILES.values():
+            urllib.request.urlretrieve(BASE + name, os.path.join(args[1], name))
+        return
+
+    src_dir, out_dir = args
+    os.makedirs(out_dir, exist_ok=True)
+    for meta in json.load(open(METADATA, encoding="utf-8")):
+        src = json.load(open(os.path.join(src_dir, FILES[meta["volume"]]), encoding="utf-8"))
+        data = convert(meta, src)
+        path = os.path.join(out_dir, meta["volume"] + ".json")
+        json.dump(data, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        verses_total = sum(len(c["verses"]) for b in data["books"] for c in b["chapters"])
+        print(f"{meta['volume']}: {len(data['books'])} books, {verses_total} verses -> {path}")
 
 
 if __name__ == "__main__":
-    volume, src, out = sys.argv[1:4]
-    data = {"doctrine_and_covenants": doctrine_and_covenants,
-            "pearl_of_great_price": pearl_of_great_price}[volume](json.load(open(src, encoding="utf-8")))
-    json.dump(data, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    main(sys.argv[1:])

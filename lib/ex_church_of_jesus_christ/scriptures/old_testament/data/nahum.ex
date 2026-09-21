@@ -50,7 +50,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Nahum do
        "But Nineveh is of old like a pool of water: yet they shall flee away. Stand, stand, shall they cry; but none shall look back.",
        "Take ye the spoil of silver, take the spoil of gold: for there is none end of the store and glory out of all the pleasant furniture.",
        "She is empty, and void, and waste: and the heart melteth, and the knees smite together, and much pain is in all loins, and the faces of them all gather blackness.",
-       "Where is the dwelling of the lions, and the feedingplace of the young lions, where the lion, even the old lion, walked, and the lion’s whelp, and none made them afraid?",
+       "Where is the dwelling of the lions, and the feedingplace of the young lions, where the lion, even the old lion, walked, and the lion's whelp, and none made them afraid?",
        "The lion did tear in pieces enough for his whelps, and strangled for his lionesses, and filled his holes with prey, and his dens with ravin.",
        "Behold, I am against thee, saith the LORD of hosts, and I will burn her chariots in the smoke, and the sword shall devour thy young lions: and I will cut off thy prey from the earth, and the voice of thy messengers shall no more be heard."
      ]},
@@ -69,9 +69,9 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Nahum do
        "Thou also shalt be drunken: thou shalt be hid, thou also shalt seek strength because of the enemy.",
        "All thy strong holds shall be like fig trees with the firstripe figs: if they be shaken, they shall even fall into the mouth of the eater.",
        "Behold, thy people in the midst of thee are women: the gates of thy land shall be set wide open unto thine enemies: the fire shall devour thy bars.",
-       "Draw thee waters for the siege, fortify thy strong holds: go into clay, and tread the morter, make strong the brickkiln.",
+       "Draw thee waters for the siege, fortify thy strong holds: go into clay, and tread the mortar, make strong the brickkiln.",
        "There shall the fire devour thee; the sword shall cut thee off, it shall eat thee up like the cankerworm: make thyself many as the cankerworm, make thyself many as the locusts.",
-       "Thou hast multiplied thy merchants above the stars of heaven: the cankerworm spoileth, and fleeth away.",
+       "Thou hast multiplied thy merchants above the stars of heaven: the cankerworm spoileth, and flieth away.",
        "Thy crowned are as the locusts, and thy captains as the great grasshoppers, which camp in the hedges in the cold day, but when the sun ariseth they flee away, and their place is not known where they are.",
        "Thy shepherds slumber, O king of Assyria: thy nobles shall dwell in the dust: thy people is scattered upon the mountains, and no man gathereth them.",
        "There is no healing of thy bruise; thy wound is grievous: all that hear the bruit of thee shall clap the hands over thee: for upon whom hath not thy wickedness passed continually?"
@@ -79,4 +79,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Nahum do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

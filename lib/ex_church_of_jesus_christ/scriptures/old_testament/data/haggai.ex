@@ -22,18 +22,18 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Haggai do
     {1,
      [
        "In the second year of Darius the king, in the sixth month, in the first day of the month, came the word of the LORD by Haggai the prophet unto Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Josedech, the high priest, saying,",
-       "Thus speaketh the LORD of hosts, saying, This people say, The time is not come, the time that the LORD’s house should be built.",
+       "Thus speaketh the LORD of hosts, saying, This people say, The time is not come, the time that the LORD's house should be built.",
        "Then came the word of the LORD by Haggai the prophet, saying,",
-       "Is it time for you, O ye, to dwell in your cieled houses, and this house lie waste?",
+       "Is it time for you, O ye, to dwell in your ceiled houses, and this house lie waste?",
        "Now therefore thus saith the LORD of hosts; Consider your ways.",
        "Ye have sown much, and bring in little; ye eat, but ye have not enough; ye drink, but ye are not filled with drink; ye clothe you, but there is none warm; and he that earneth wages earneth wages to put it into a bag with holes.",
        "Thus saith the LORD of hosts; Consider your ways.",
        "Go up to the mountain, and bring wood, and build the house; and I will take pleasure in it, and I will be glorified, saith the LORD.",
-       "Ye looked for much, and, lo it came to little; and when ye brought it home, I did blow upon it. Why? saith the LORD of hosts. Because of mine house that is waste, and ye run every man unto his own house.",
+       "Ye looked for much, and, lo, it came to little; and when ye brought it home, I did blow upon it. Why? saith the LORD of hosts. Because of mine house that is waste, and ye run every man unto his own house.",
        "Therefore the heaven over you is stayed from dew, and the earth is stayed from her fruit.",
        "And I called for a drought upon the land, and upon the mountains, and upon the corn, and upon the new wine, and upon the oil, and upon that which the ground bringeth forth, and upon men, and upon cattle, and upon all the labour of the hands.",
        "Then Zerubbabel the son of Shealtiel, and Joshua the son of Josedech, the high priest, with all the remnant of the people, obeyed the voice of the LORD their God, and the words of Haggai the prophet, as the LORD their God had sent him, and the people did fear before the LORD.",
-       "Then spake Haggai the LORD’s messenger in the LORD’s message unto the people, saying, I am with you, saith the LORD.",
+       "Then spake Haggai the LORD's messenger in the LORD's message unto the people, saying, I am with you, saith the LORD.",
        "And the LORD stirred up the spirit of Zerubbabel the son of Shealtiel, governor of Judah, and the spirit of Joshua the son of Josedech, the high priest, and the spirit of all the remnant of the people; and they came and did work in the house of the LORD of hosts, their God,",
        "In the four and twentieth day of the sixth month, in the second year of Darius the king."
      ]},
@@ -56,7 +56,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Haggai do
        "And now, I pray you, consider from this day and upward, from before a stone was laid upon a stone in the temple of the LORD:",
        "Since those days were, when one came to an heap of twenty measures, there were but ten: when one came to the pressfat for to draw out fifty vessels out of the press, there were but twenty.",
        "I smote you with blasting and with mildew and with hail in all the labours of your hands; yet ye turned not to me, saith the LORD.",
-       "Consider now from this day and upward, from the four and twentieth day of the ninth month, even from the day that the foundation of the LORD’s temple was laid, consider it.",
+       "Consider now from this day and upward, from the four and twentieth day of the ninth month, even from the day that the foundation of the LORD's temple was laid, consider it.",
        "Is the seed yet in the barn? yea, as yet the vine, and the fig tree, and the pomegranate, and the olive tree, hath not brought forth: from this day will I bless you.",
        "And again the word of the LORD came unto Haggai in the four and twentieth day of the month, saying,",
        "Speak to Zerubbabel, governor of Judah, saying, I will shake the heavens and the earth;",
@@ -66,4 +66,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Haggai do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

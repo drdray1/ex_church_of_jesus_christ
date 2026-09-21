@@ -43,9 +43,11 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Obadiah do
        "And the house of Jacob shall be a fire, and the house of Joseph a flame, and the house of Esau for stubble, and they shall kindle in them, and devour them; and there shall not be any remaining of the house of Esau; for the LORD hath spoken it.",
        "And they of the south shall possess the mount of Esau; and they of the plain the Philistines: and they shall possess the fields of Ephraim, and the fields of Samaria: and Benjamin shall possess Gilead.",
        "And the captivity of this host of the children of Israel shall possess that of the Canaanites, even unto Zarephath; and the captivity of Jerusalem, which is in Sepharad, shall possess the cities of the south.",
-       "And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD’s."
+       "And saviours shall come up on mount Zion to judge the mount of Esau; and the kingdom shall be the LORD's."
      ]}
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

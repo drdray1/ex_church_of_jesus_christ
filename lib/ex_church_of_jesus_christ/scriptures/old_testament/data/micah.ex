@@ -23,7 +23,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Micah do
     {1,
      [
        "The word of the LORD that came to Micah the Morasthite in the days of Jotham, Ahaz, and Hezekiah, kings of Judah, which he saw concerning Samaria and Jerusalem.",
-       "Hear, all ye people; hearken, O earth, and all that therein is: and let the Lord GOD be witness against you, the LORD from his holy temple.",
+       "Hear, all ye people; hearken, O earth, and all that therein is: and let the Lord GOD be witness against you, the Lord from his holy temple.",
        "For, behold, the LORD cometh forth out of his place, and will come down, and tread upon the high places of the earth.",
        "And the mountains shall be molten under him, and the valleys shall be cleft, as wax before the fire, and as the waters that are poured down a steep place.",
        "For the transgression of Jacob is all this, and for the sins of the house of Israel. What is the transgression of Jacob? is it not Samaria? and what are the high places of Judah? are they not Jerusalem?",
@@ -32,10 +32,10 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Micah do
        "Therefore I will wail and howl, I will go stripped and naked: I will make a wailing like the dragons, and mourning as the owls.",
        "For her wound is incurable; for it is come unto Judah; he is come unto the gate of my people, even to Jerusalem.",
        "Declare ye it not at Gath, weep ye not at all: in the house of Aphrah roll thyself in the dust.",
-       "Pass ye away, thou inhabitant of Saphir, having thy shame naked: the inhabitant of Zaanan came not forth in the mourning of Bethezel; he shall receive of you his standing.",
+       "Pass ye away, thou inhabitant of Saphir, having thy shame naked: the inhabitant of Zaanan came not forth in the mourning of Beth-ezel; he shall receive of you his standing.",
        "For the inhabitant of Maroth waited carefully for good: but evil came down from the LORD unto the gate of Jerusalem.",
        "O thou inhabitant of Lachish, bind the chariot to the swift beast: she is the beginning of the sin to the daughter of Zion: for the transgressions of Israel were found in thee.",
-       "Therefore shalt thou give presents to Moreshethgath: the houses of Achzib shall be a lie to the kings of Israel.",
+       "Therefore shalt thou give presents to Moresheth-gath: the houses of Achzib shall be a lie to the kings of Israel.",
        "Yet will I bring an heir unto thee, O inhabitant of Mareshah: he shall come unto Adullam the glory of Israel.",
        "Make thee bald, and poll thee for thy delicate children; enlarge thy baldness as the eagle; for they are gone into captivity from thee."
      ]},
@@ -89,7 +89,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Micah do
     {5,
      [
        "Now gather thyself in troops, O daughter of troops: he hath laid siege against us: they shall smite the judge of Israel with a rod upon the cheek.",
-       "But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel; whose goings forth have been from of old, from everlasting.",
+       "But thou, Beth-lehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel; whose goings forth have been from of old, from everlasting.",
        "Therefore will he give them up, until the time that she which travaileth hath brought forth: then the remnant of his brethren shall return unto the children of Israel.",
        "And he shall stand and feed in the strength of the LORD, in the majesty of the name of the LORD his God; and they shall abide: for now shall he be great unto the ends of the earth.",
        "And this man shall be the peace, when the Assyrian shall come into our land: and when he shall tread in our palaces, then shall we raise against him seven shepherds, and eight principal men.",
@@ -107,14 +107,14 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Micah do
     {6,
      [
        "Hear ye now what the LORD saith; Arise, contend thou before the mountains, and let the hills hear thy voice.",
-       "Hear ye, O mountains, the LORD’s controversy, and ye strong foundations of the earth: for the LORD hath a controversy with his people, and he will plead with Israel.",
+       "Hear ye, O mountains, the LORD's controversy, and ye strong foundations of the earth: for the LORD hath a controversy with his people, and he will plead with Israel.",
        "O my people, what have I done unto thee? and wherein have I wearied thee? testify against me.",
        "For I brought thee up out of the land of Egypt, and redeemed thee out of the house of servants; and I sent before thee Moses, Aaron, and Miriam.",
        "O my people, remember now what Balak king of Moab consulted, and what Balaam the son of Beor answered him from Shittim unto Gilgal; that ye may know the righteousness of the LORD.",
        "Wherewith shall I come before the LORD, and bow myself before the high God? shall I come before him with burnt offerings, with calves of a year old?",
        "Will the LORD be pleased with thousands of rams, or with ten thousands of rivers of oil? shall I give my firstborn for my transgression, the fruit of my body for the sin of my soul?",
        "He hath shewed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?",
-       "The LORD’s voice crieth unto the city, and the man of wisdom shall see thy name: hear ye the rod, and who hath appointed it.",
+       "The LORD's voice crieth unto the city, and the man of wisdom shall see thy name: hear ye the rod, and who hath appointed it.",
        "Are there yet the treasures of wickedness in the house of the wicked, and the scant measure that is abominable?",
        "Shall I count them pure with the wicked balances, and with the bag of deceitful weights?",
        "For the rich men thereof are full of violence, and the inhabitants thereof have spoken lies, and their tongue is deceitful in their mouth.",
@@ -130,7 +130,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Micah do
        "That they may do evil with both hands earnestly, the prince asketh, and the judge asketh for a reward; and the great man, he uttereth his mischievous desire: so they wrap it up.",
        "The best of them is as a brier: the most upright is sharper than a thorn hedge: the day of thy watchmen and thy visitation cometh; now shall be their perplexity.",
        "Trust ye not in a friend, put ye not confidence in a guide: keep the doors of thy mouth from her that lieth in thy bosom.",
-       "For the son dishonoureth the father, the daughter riseth up against her mother, the daughter in law against her mother in law; a man’s enemies are the men of his own house.",
+       "For the son dishonoureth the father, the daughter riseth up against her mother, the daughter in law against her mother in law; a man's enemies are the men of his own house.",
        "Therefore I will look unto the LORD; I will wait for the God of my salvation: my God will hear me.",
        "Rejoice not against me, O mine enemy: when I fall, I shall arise; when I sit in darkness, the LORD shall be a light unto me.",
        "I will bear the indignation of the LORD, because I have sinned against him, until he plead my cause, and execute judgment for me: he will bring me forth to the light, and I shall behold his righteousness.",
@@ -149,4 +149,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Micah do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

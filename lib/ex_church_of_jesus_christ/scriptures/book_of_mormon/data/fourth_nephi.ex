@@ -44,7 +44,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.FourthNephi do
        "And it came to pass that the seventy and first year passed away, and also the seventy and second year, yea, and in fine, till the seventy and ninth year had passed away; yea, even an hundred years had passed away, and the disciples of Jesus, whom he had chosen, had all gone to the paradise of God, save it were the three who should tarry; and there were other disciples ordained in their stead; and also many of that generation had passed away.",
        "And it came to pass that there was no contention in the land, because of the love of God which did dwell in the hearts of the people.",
        "And there were no envyings, nor strifes, nor tumults, nor whoredoms, nor lyings, nor murders, nor any manner of lasciviousness; and surely there could not be a happier people among all the people who had been created by the hand of God.",
-       "There were no robbers, nor murderers, neither were there Lamanites, nor any manner of —ites; but they were in one, the children of Christ, and heirs to the kingdom of God.",
+       "There were no robbers, nor murderers, neither were there Lamanites, nor any manner of -ites; but they were in one, the children of Christ, and heirs to the kingdom of God.",
        "And how blessed were they! For the Lord did bless them in all their doings; yea, even they were blessed and prospered until an hundred and ten years had passed away; and the first generation from Christ had passed away, and there was no contention in all the land.",
        "And it came to pass that Nephi, he that kept this last record, (and he kept it upon the plates of Nephi) died, and his son Amos kept it in his stead; and he kept it upon the plates of Nephi also.",
        "And he kept it eighty and four years, and there was still peace in the land, save it were a small part of the people who had revolted from the church and taken upon them the name of Lamanites; therefore there began to be Lamanites again in the land.",
@@ -76,9 +76,11 @@ defmodule ExChurchOfJesusChrist.Scriptures.BookOfMormon.Data.FourthNephi do
        "And it came to pass that the robbers of Gadianton did spread over all the face of the land; and there were none that were righteous save it were the disciples of Jesus. And gold and silver did they lay up in store in abundance, and did traffic in all manner of traffic.",
        "And it came to pass that after three hundred and five years had passed away, (and the people did still remain in wickedness) Amos died; and his brother, Ammaron, did keep the record in his stead.",
        "And it came to pass that when three hundred and twenty years had passed away, Ammaron, being constrained by the Holy Ghost, did hide up the records which were sacred—yea, even all the sacred records which had been handed down from generation to generation, which were sacred—even until the three hundred and twentieth year from the coming of Christ.",
-       "And he did hide them up unto the Lord that they might come again unto the remnant of the house of Jacob according to the prophecies and the promises of the Lord. And thus is the end of the record of Ammaron."
+       "And he did hide them up unto the Lord, that they might come again unto the remnant of the house of Jacob, according to the prophecies and the promises of the Lord. And thus is the end of the record of Ammaron."
      ]}
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

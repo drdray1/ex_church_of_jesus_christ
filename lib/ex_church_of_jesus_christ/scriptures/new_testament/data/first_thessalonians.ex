@@ -35,7 +35,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstThessalonians 
        "Remembering without ceasing your work of faith, and labour of love, and patience of hope in our Lord Jesus Christ, in the sight of God and our Father;",
        "Knowing, brethren beloved, your election of God.",
        "For our gospel came not unto you in word only, but also in power, and in the Holy Ghost, and in much assurance; as ye know what manner of men we were among you for your sake.",
-       "And ye became followers of us, and of the Lord, having received the word in much affliction, with joy of the Holy Ghost.",
+       "And ye became followers of us, and of the Lord, having received the word in much affliction, with joy of the Holy Ghost:",
        "So that ye were ensamples to all that believe in Macedonia and Achaia.",
        "For from you sounded out the word of the Lord not only in Macedonia and Achaia, but also in every place your faith to God-ward is spread abroad; so that we need not to speak any thing.",
        "For they themselves shew of us what manner of entering in we had unto you, and how ye turned to God from idols to serve the living and true God;",
@@ -47,7 +47,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstThessalonians 
        "But even after that we had suffered before, and were shamefully entreated, as ye know, at Philippi, we were bold in our God to speak unto you the gospel of God with much contention.",
        "For our exhortation was not of deceit, nor of uncleanness, nor in guile:",
        "But as we were allowed of God to be put in trust with the gospel, even so we speak; not as pleasing men, but God, which trieth our hearts.",
-       "For neither at any time used we flattering words, as ye know, nor a cloke of covetousness; God is witness:",
+       "For neither at any time used we flattering words, as ye know, nor a cloak of covetousness; God is witness:",
        "Nor of men sought we glory, neither of you, nor yet of others, when we might have been burdensome, as the apostles of Christ.",
        "But we were gentle among you, even as a nurse cherisheth her children:",
        "So being affectionately desirous of you, we were willing to have imparted unto you, not the gospel of God only, but also our own souls, because ye were dear unto us.",
@@ -56,7 +56,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstThessalonians 
        "As ye know how we exhorted and comforted and charged every one of you, as a father doth his children,",
        "That ye would walk worthy of God, who hath called you unto his kingdom and glory.",
        "For this cause also thank we God without ceasing, because, when ye received the word of God which ye heard of us, ye received it not as the word of men, but as it is in truth, the word of God, which effectually worketh also in you that believe.",
-       "For ye, brethren, became followers of the churches of God which in Judaea are in Christ Jesus: for ye also have suffered like things of your own countrymen, even as they have of the Jews:",
+       "For ye, brethren, became followers of the churches of God which in Judæa are in Christ Jesus: for ye also have suffered like things of your own countrymen, even as they have of the Jews:",
        "Who both killed the Lord Jesus, and their own prophets, and have persecuted us; and they please not God, and are contrary to all men:",
        "Forbidding us to speak to the Gentiles that they might be saved, to fill up their sins alway: for the wrath is come upon them to the uttermost.",
        "But we, brethren, being taken from you for a short time in presence, not in heart, endeavoured the more abundantly to see your face with great desire.",
@@ -115,7 +115,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstThessalonians 
        "Who died for us, that, whether we wake or sleep, we should live together with him.",
        "Wherefore comfort yourselves together, and edify one another, even as also ye do.",
        "And we beseech you, brethren, to know them which labour among you, and are over you in the Lord, and admonish you;",
-       "And to esteem them very highly in love for their work’s sake. And be at peace among yourselves.",
+       "And to esteem them very highly in love for their work's sake. And be at peace among yourselves.",
        "Now we exhort you, brethren, warn them that are unruly, comfort the feebleminded, support the weak, be patient toward all men.",
        "See that none render evil for evil unto any man; but ever follow that which is good, both among yourselves, and to all men.",
        "Rejoice evermore.",
@@ -135,4 +135,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstThessalonians 
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

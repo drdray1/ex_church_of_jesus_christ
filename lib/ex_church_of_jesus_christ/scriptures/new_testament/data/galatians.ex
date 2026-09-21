@@ -29,20 +29,20 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Galatians do
        "I marvel that ye are so soon removed from him that called you into the grace of Christ unto another gospel:",
        "Which is not another; but there be some that trouble you, and would pervert the gospel of Christ.",
        "But though we, or an angel from heaven, preach any other gospel unto you than that which we have preached unto you, let him be accursed.",
-       "As we said before, so say I now again, if any man preach any other gospel unto you than that ye have received, let him be accursed.",
+       "As we said before, so say I now again, If any man preach any other gospel unto you than that ye have received, let him be accursed.",
        "For do I now persuade men, or God? or do I seek to please men? for if I yet pleased men, I should not be the servant of Christ.",
        "But I certify you, brethren, that the gospel which was preached of me is not after man.",
        "For I neither received it of man, neither was I taught it, but by the revelation of Jesus Christ.",
-       "For ye have heard of my conversation in time past in the Jews’ religion, how that beyond measure I persecuted the church of God, and wasted it:",
-       "And profited in the Jews’ religion above many my equals in mine own nation, being more exceedingly zealous of the traditions of my fathers.",
-       "But when it pleased God, who separated me from my mother’s womb, and called me by his grace,",
+       "For ye have heard of my conversation in time past in the Jews' religion, how that beyond measure I persecuted the church of God, and wasted it:",
+       "And profited in the Jews' religion above many my equals in mine own nation, being more exceedingly zealous of the traditions of my fathers.",
+       "But when it pleased God, who separated me from my mother's womb, and called me by his grace,",
        "To reveal his Son in me, that I might preach him among the heathen; immediately I conferred not with flesh and blood:",
        "Neither went I up to Jerusalem to them which were apostles before me; but I went into Arabia, and returned again unto Damascus.",
        "Then after three years I went up to Jerusalem to see Peter, and abode with him fifteen days.",
-       "But other of the apostles saw I none, save James the Lord’s brother.",
+       "But other of the apostles saw I none, save James the Lord's brother.",
        "Now the things which I write unto you, behold, before God, I lie not.",
        "Afterwards I came into the regions of Syria and Cilicia;",
-       "And was unknown by face unto the churches of Judaea which were in Christ:",
+       "And was unknown by face unto the churches of Judæa which were in Christ:",
        "But they had heard only, That he which persecuted us in times past now preacheth the faith which once he destroyed.",
        "And they glorified God in me."
      ]},
@@ -53,7 +53,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Galatians do
        "But neither Titus, who was with me, being a Greek, was compelled to be circumcised:",
        "And that because of false brethren unawares brought in, who came in privily to spy out our liberty which we have in Christ Jesus, that they might bring us into bondage:",
        "To whom we gave place by subjection, no, not for an hour; that the truth of the gospel might continue with you.",
-       "But of these who seemed to be somewhat, (whatsoever they were, it maketh no matter to me: God accepteth no man’s person:) for they who seemed to be somewhat in conference added nothing to me:",
+       "But of these who seemed to be somewhat, (whatsoever they were, it maketh no matter to me: God accepteth no man's person:) for they who seemed to be somewhat in conference added nothing to me:",
        "But contrariwise, when they saw that the gospel of the uncircumcision was committed unto me, as the gospel of the circumcision was unto Peter;",
        "(For he that wrought effectually in Peter to the apostleship of the circumcision, the same was mighty in me toward the Gentiles:)",
        "And when James, Cephas, and John, who seemed to be pillars, perceived the grace that was given unto me, they gave to me and Barnabas the right hands of fellowship; that we should go unto the heathen, and they unto the circumcision.",
@@ -67,7 +67,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Galatians do
        "But if, while we seek to be justified by Christ, we ourselves also are found sinners, is therefore Christ the minister of sin? God forbid.",
        "For if I build again the things which I destroyed, I make myself a transgressor.",
        "For I through the law am dead to the law, that I might live unto God.",
-       "I am crucified with Christ: neverthless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.",
+       "I am crucified with Christ: nevertheless I live; yet not I, but Christ liveth in me: and the life which I now live in the flesh I live by the faith of the Son of God, who loved me, and gave himself for me.",
        "I do not frustrate the grace of God: for if righteousness come by the law, then Christ is dead in vain."
      ]},
     {3,
@@ -86,7 +86,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Galatians do
        "And the law is not of faith: but, The man that doeth them shall live in them.",
        "Christ hath redeemed us from the curse of the law, being made a curse for us: for it is written, Cursed is every one that hangeth on a tree:",
        "That the blessing of Abraham might come on the Gentiles through Jesus Christ; that we might receive the promise of the Spirit through faith.",
-       "Brethren, I speak after the manner of men; Though it be but a man’s covenant, yet if it be confirmed, no man disannulleth, or addeth thereto.",
+       "Brethren, I speak after the manner of men; Though it be but a man's covenant, yet if it be confirmed, no man disannulleth, or addeth thereto.",
        "Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ.",
        "And this I say, that the covenant, that was confirmed before of God in Christ, the law, which was four hundred and thirty years after, cannot disannul, that it should make the promise of none effect.",
        "For if the inheritance be of the law, it is no more of promise: but God gave it to Abraham by promise.",
@@ -100,7 +100,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Galatians do
        "For ye are all the children of God by faith in Christ Jesus.",
        "For as many of you as have been baptized into Christ have put on Christ.",
        "There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.",
-       "And if ye be Christ’s, then are ye Abraham’s seed, and heirs according to the promise."
+       "And if ye be Christ's, then are ye Abraham's seed, and heirs according to the promise."
      ]},
     {4,
      [
@@ -161,14 +161,14 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Galatians do
        "Envyings, murders, drunkenness, revellings, and such like: of the which I tell you before, as I have also told you in time past, that they which do such things shall not inherit the kingdom of God.",
        "But the fruit of the Spirit is love, joy, peace, longsuffering, gentleness, goodness, faith,",
        "Meekness, temperance: against such there is no law.",
-       "And they that are Christ’s have crucified the flesh with the affections and lusts.",
+       "And they that are Christ's have crucified the flesh with the affections and lusts.",
        "If we live in the Spirit, let us also walk in the Spirit.",
        "Let us not be desirous of vain glory, provoking one another, envying one another."
      ]},
     {6,
      [
        "Brethren, if a man be overtaken in a fault, ye which are spiritual, restore such an one in the spirit of meekness; considering thyself, lest thou also be tempted.",
-       "Bear ye one another’s burdens, and so fulfil the law of Christ.",
+       "Bear ye one another's burdens, and so fulfil the law of Christ.",
        "For if a man think himself to be something, when he is nothing, he deceiveth himself.",
        "But let every man prove his own work, and then shall he have rejoicing in himself alone, and not in another.",
        "For every man shall bear his own burden.",
@@ -189,4 +189,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Galatians do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

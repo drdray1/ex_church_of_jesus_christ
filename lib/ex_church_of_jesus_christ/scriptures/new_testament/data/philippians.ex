@@ -31,7 +31,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Philippians do
        "Even as it is meet for me to think this of you all, because I have you in my heart; inasmuch as both in my bonds, and in the defence and confirmation of the gospel, ye all are partakers of my grace.",
        "For God is my record, how greatly I long after you all in the bowels of Jesus Christ.",
        "And this I pray, that your love may abound yet more and more in knowledge and in all judgment;",
-       "That ye may approve things that are excellent; that ye may be sincere and without offence till the day of Christ.",
+       "That ye may approve things that are excellent; that ye may be sincere and without offence till the day of Christ;",
        "Being filled with the fruits of righteousness, which are by Jesus Christ, unto the glory and praise of God.",
        "But I would ye should understand, brethren, that the things which happened unto me have fallen out rather unto the furtherance of the gospel;",
        "So that my bonds in Christ are manifest in all the palace, and in all other places;",
@@ -75,7 +75,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Philippians do
        "For the same cause also do ye joy, and rejoice with me.",
        "But I trust in the Lord Jesus to send Timotheus shortly unto you, that I also may be of good comfort, when I know your state.",
        "For I have no man likeminded, who will naturally care for your state.",
-       "For all seek their own, not the things which are Jesus Christ’s.",
+       "For all seek their own, not the things which are Jesus Christ's.",
        "But ye know the proof of him, that, as a son with the father, he hath served with me in the gospel.",
        "Him therefore I hope to send presently, so soon as I shall see how it will go with me.",
        "But I trust in the Lord that I also myself shall come shortly.",
@@ -114,7 +114,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Philippians do
      [
        "Therefore, my brethren dearly beloved and longed for, my joy and crown, so stand fast in the Lord, my dearly beloved.",
        "I beseech Euodias, and beseech Syntyche, that they be of the same mind in the Lord.",
-       "And I intreat thee also, true yokefellow, help those women which laboured with me in the gospel, with Clement also, and with other my fellowlabourers, whose names are in the book of life.",
+       "And I entreat thee also, true yokefellow, help those women which laboured with me in the gospel, with Clement also, and with other my fellowlabourers, whose names are in the book of life.",
        "Rejoice in the Lord alway: and again I say, Rejoice.",
        "Let your moderation be known unto all men. The Lord is at hand.",
        "Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God.",
@@ -133,10 +133,12 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.Philippians do
        "But my God shall supply all your need according to his riches in glory by Christ Jesus.",
        "Now unto God and our Father be glory for ever and ever. Amen.",
        "Salute every saint in Christ Jesus. The brethren which are with me greet you.",
-       "All the saints salute you, chiefly they that are of Caesar’s household.",
+       "All the saints salute you, chiefly they that are of Cæsar's household.",
        "The grace of our Lord Jesus Christ be with you all. Amen."
      ]}
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

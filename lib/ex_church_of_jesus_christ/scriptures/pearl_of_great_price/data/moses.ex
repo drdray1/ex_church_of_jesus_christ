@@ -402,4 +402,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.PearlOfGreatPrice.Data.Moses do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

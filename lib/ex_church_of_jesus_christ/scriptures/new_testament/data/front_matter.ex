@@ -4,7 +4,11 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FrontMatter do
 
   def all do
     %{
-
+      title_page: [
+        "The New Testament",
+        "of Our Lord and Saviour Jesus Christ",
+        "Translated out of the Original Greek: and with the Former Translations Diligently Compared and Revised, by His Majesty's Special Command"
+      ]
     }
   end
 end

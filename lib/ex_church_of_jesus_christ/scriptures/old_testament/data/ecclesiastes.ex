@@ -58,7 +58,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Ecclesiastes do
        "Then I looked on all the works that my hands had wrought, and on the labour that I had laboured to do: and, behold, all was vanity and vexation of spirit, and there was no profit under the sun.",
        "And I turned myself to behold wisdom, and madness, and folly: for what can the man do that cometh after the king? even that which hath been already done.",
        "Then I saw that wisdom excelleth folly, as far as light excelleth darkness.",
-       "The wise man’s eyes are in his head; but the fool walketh in darkness: and I myself perceived also that one event happeneth to them all.",
+       "The wise man's eyes are in his head; but the fool walketh in darkness: and I myself perceived also that one event happeneth to them all.",
        "Then said I in my heart, As it happeneth to the fool, so it happeneth even to me; and why was I then more wise? Then I said in my heart, that this also is vanity.",
        "For there is no remembrance of the wise more than of the fool for ever; seeing that which now is in the days to come shall all be forgotten. And how dieth the wise man? as the fool.",
        "Therefore I hated life; because the work that is wrought under the sun is grievous unto me: for all is vanity and vexation of spirit.",
@@ -120,7 +120,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Ecclesiastes do
      [
        "Keep thy foot when thou goest to the house of God, and be more ready to hear, than to give the sacrifice of fools: for they consider not that they do evil.",
        "Be not rash with thy mouth, and let not thine heart be hasty to utter any thing before God: for God is in heaven, and thou upon earth: therefore let thy words be few.",
-       "For a dream cometh through the multitude of business; and a fool’s voice is known by multitude of words.",
+       "For a dream cometh through the multitude of business; and a fool's voice is known by multitude of words.",
        "When thou vowest a vow unto God, defer not to pay it; for he hath no pleasure in fools: pay that which thou hast vowed.",
        "Better is it that thou shouldest not vow, than that thou shouldest vow and not pay.",
        "Suffer not thy mouth to cause thy flesh to sin; neither say thou before the angel, that it was an error: wherefore should God be angry at thy voice, and destroy the work of thine hands?",
@@ -132,7 +132,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Ecclesiastes do
        "The sleep of a labouring man is sweet, whether he eat little or much: but the abundance of the rich will not suffer him to sleep.",
        "There is a sore evil which I have seen under the sun, namely, riches kept for the owners thereof to their hurt.",
        "But those riches perish by evil travail: and he begetteth a son, and there is nothing in his hand.",
-       "As he came forth of his mother’s womb, naked shall he return to go as he came, and shall take nothing of his labour, which he may carry away in his hand.",
+       "As he came forth of his mother's womb, naked shall he return to go as he came, and shall take nothing of his labour, which he may carry away in his hand.",
        "And this also is a sore evil, that in all points as he came, so shall he go: and what profit hath he that hath laboured for the wind?",
        "All his days also he eateth in darkness, and he hath much sorrow and wrath with his sickness.",
        "Behold that which I have seen: it is good and comely for one to eat and to drink, and to enjoy the good of all his labour that he taketh under the sun all the days of his life, which God giveth him: for it is his portion.",
@@ -156,7 +156,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Ecclesiastes do
      ]},
     {7,
      [
-       "A good name is better than precious ointment; and the day of death than the day of one’s birth.",
+       "A good name is better than precious ointment; and the day of death than the day of one's birth.",
        "It is better to go to the house of mourning, than to go to the house of feasting: for that is the end of all men; and the living will lay it to his heart.",
        "Sorrow is better than laughter: for by the sadness of the countenance the heart is made better.",
        "The heart of the wise is in the house of mourning; but the heart of fools is in the house of mirth.",
@@ -165,7 +165,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Ecclesiastes do
        "Surely oppression maketh a wise man mad; and a gift destroyeth the heart.",
        "Better is the end of a thing than the beginning thereof: and the patient in spirit is better than the proud in spirit.",
        "Be not hasty in thy spirit to be angry: for anger resteth in the bosom of fools.",
-       "Say not thou, What is the cause that the former days were better than these? for thou dost not enquire wisely concerning this.",
+       "Say not thou, What is the cause that the former days were better than these? for thou dost not inquire wisely concerning this.",
        "Wisdom is good with an inheritance: and by it there is profit to them that see the sun.",
        "For wisdom is a defence, and money is a defence: but the excellency of knowledge is, that wisdom giveth life to them that have it.",
        "Consider the work of God: for who can make that straight, which he hath made crooked?",
@@ -188,11 +188,11 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Ecclesiastes do
      ]},
     {8,
      [
-       "Who is as the wise man? and who knoweth the interpretation of a thing? a man’s wisdom maketh his face to shine, and the boldness of his face shall be changed.",
-       "I counsel thee to keep the king’s commandment, and that in regard of the oath of God.",
+       "Who is as the wise man? and who knoweth the interpretation of a thing? a man's wisdom maketh his face to shine, and the boldness of his face shall be changed.",
+       "I counsel thee to keep the king's commandment, and that in regard of the oath of God.",
        "Be not hasty to go out of his sight: stand not in an evil thing; for he doeth whatsoever pleaseth him.",
        "Where the word of a king is, there is power: and who may say unto him, What doest thou?",
-       "Whoso keepeth the commandment shall feel no evil thing: and a wise man’s heart discerneth both time and judgment.",
+       "Whoso keepeth the commandment shall feel no evil thing: and a wise man's heart discerneth both time and judgment.",
        "Because to every purpose there is time and judgment, therefore the misery of man is great upon him.",
        "For he knoweth not that which shall be: for who can tell him when it shall be?",
        "There is no man that hath power over the spirit to retain the spirit; neither hath he power in the day of death: and there is no discharge in that war; neither shall wickedness deliver those that are given to it.",
@@ -204,7 +204,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Ecclesiastes do
        "There is a vanity which is done upon the earth; that there be just men, unto whom it happeneth according to the work of the wicked; again, there be wicked men, to whom it happeneth according to the work of the righteous: I said that this also is vanity.",
        "Then I commended mirth, because a man hath no better thing under the sun, than to eat, and to drink, and to be merry: for that shall abide with him of his labour the days of his life, which God giveth him under the sun.",
        "When I applied mine heart to know wisdom, and to see the business that is done upon the earth: (for also there is that neither day nor night seeth sleep with his eyes:)",
-       "Then I beheld all the work of God, that a man cannot find out the work that is done under the sun: because though a man labour to seek it out, yet he shall not find it; yea farther; though a wise man think to know it, yet shall he not be able to find it."
+       "Then I beheld all the work of God, that a man cannot find out the work that is done under the sun: because though a man labour to seek it out, yet he shall not find it; yea further; though a wise man think to know it, yet shall he not be able to find it."
      ]},
     {9,
      [
@@ -223,14 +223,14 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Ecclesiastes do
        "This wisdom have I seen also under the sun, and it seemed great unto me:",
        "There was a little city, and few men within it; and there came a great king against it, and besieged it, and built great bulwarks against it:",
        "Now there was found in it a poor wise man, and he by his wisdom delivered the city; yet no man remembered that same poor man.",
-       "Then said I, Wisdom is better than strength: nevertheless the poor man’s wisdom is despised, and his words are not heard.",
+       "Then said I, Wisdom is better than strength: nevertheless the poor man's wisdom is despised, and his words are not heard.",
        "The words of wise men are heard in quiet more than the cry of him that ruleth among fools.",
        "Wisdom is better than weapons of war: but one sinner destroyeth much good."
      ]},
     {10,
      [
        "Dead flies cause the ointment of the apothecary to send forth a stinking savour: so doth a little folly him that is in reputation for wisdom and honour.",
-       "A wise man’s heart is at his right hand; but a fool’s heart at his left.",
+       "A wise man's heart is at his right hand; but a fool's heart at his left.",
        "Yea also, when he that is a fool walketh by the way, his wisdom faileth him, and he saith to every one that he is a fool.",
        "If the spirit of the ruler rise up against thee, leave not thy place; for yielding pacifieth great offences.",
        "There is an evil which I have seen under the sun, as an error which proceedeth from the ruler:",
@@ -240,7 +240,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Ecclesiastes do
        "Whoso removeth stones shall be hurt therewith; and he that cleaveth wood shall be endangered thereby.",
        "If the iron be blunt, and he do not whet the edge, then must he put to more strength: but wisdom is profitable to direct.",
        "Surely the serpent will bite without enchantment; and a babbler is no better.",
-       "The words of a wise man’s mouth are gracious; but the lips of a fool will swallow up himself.",
+       "The words of a wise man's mouth are gracious; but the lips of a fool will swallow up himself.",
        "The beginning of the words of his mouth is foolishness: and the end of his talk is mischievous madness.",
        "A fool also is full of words: a man cannot tell what shall be; and what shall be after him, who can tell him?",
        "The labour of the foolish wearieth every one of them, because he knoweth not how to go to the city.",
@@ -283,4 +283,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.OldTestament.Data.Ecclesiastes do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

@@ -174,4 +174,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.PearlOfGreatPrice.Data.Abraham do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

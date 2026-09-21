@@ -46,7 +46,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstTimothy do
        "Now unto the King eternal, immortal, invisible, the only wise God, be honour and glory for ever and ever. Amen.",
        "This charge I commit unto thee, son Timothy, according to the prophecies which went before on thee, that thou by them mightest war a good warfare;",
        "Holding faith, and a good conscience; which some having put away concerning faith have made shipwreck:",
-       "Of whom is Hymenaeus and Alexander; whom I have delivered unto Satan, that they may learn not to blaspheme."
+       "Of whom is Hymenæus and Alexander; whom I have delivered unto Satan, that they may learn not to blaspheme."
      ]},
     {2,
      [
@@ -93,7 +93,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstTimothy do
        "For every creature of God is good, and nothing to be refused, if it be received with thanksgiving:",
        "For it is sanctified by the word of God and prayer.",
        "If thou put the brethren in remembrance of these things, thou shalt be a good minister of Jesus Christ, nourished up in the words of faith and of good doctrine, whereunto thou hast attained.",
-       "But refuse profane and old wives’ fables, and exercise thyself rather unto godliness.",
+       "But refuse profane and old wives' fables, and exercise thyself rather unto godliness.",
        "For bodily exercise profiteth little: but godliness is profitable unto all things, having promise of the life that now is, and of that which is to come.",
        "This is a faithful saying and worthy of all acceptation.",
        "For therefore we both labour and suffer reproach, because we trust in the living God, who is the Saviour of all men, specially of those that believe.",
@@ -106,7 +106,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstTimothy do
      ]},
     {5,
      [
-       "Rebuke not an elder, but intreat him as a father; and the younger men as brethren;",
+       "Rebuke not an elder, but entreat him as a father; and the younger men as brethren;",
        "The elder women as mothers; the younger as sisters, with all purity.",
        "Honour widows that are widows indeed.",
        "But if any widow have children or nephews, let them learn first to shew piety at home, and to requite their parents: for that is good and acceptable before God.",
@@ -114,8 +114,8 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstTimothy do
        "But she that liveth in pleasure is dead while she liveth.",
        "And these things give in charge, that they may be blameless.",
        "But if any provide not for his own, and specially for those of his own house, he hath denied the faith, and is worse than an infidel.",
-       "Let not a widow be taken into the number under threescore years old, having been the wife of one man.",
-       "Well reported of for good works; if she have brought up children, if she have lodged strangers, if she have washed the saints’ feet, if she have relieved the afflicted, if she have diligently followed every good work.",
+       "Let not a widow be taken into the number under threescore years old, having been the wife of one man,",
+       "Well reported of for good works; if she have brought up children, if she have lodged strangers, if she have washed the saints' feet, if she have relieved the afflicted, if she have diligently followed every good work.",
        "But the younger widows refuse: for when they have begun to wax wanton against Christ, they will marry;",
        "Having damnation, because they have cast off their first faith.",
        "And withal they learn to be idle, wandering about from house to house; and not only idle, but tattlers also and busybodies, speaking things which they ought not.",
@@ -127,9 +127,9 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstTimothy do
        "Against an elder receive not an accusation, but before two or three witnesses.",
        "Them that sin rebuke before all, that others also may fear.",
        "I charge thee before God, and the Lord Jesus Christ, and the elect angels, that thou observe these things without preferring one before another, doing nothing by partiality.",
-       "Lay hands suddenly on no man, neither be partaker of other men’s sins: keep thyself pure.",
-       "Drink no longer water, but use a little wine for thy stomach’s sake and thine often infirmities.",
-       "Some men’s sins are open beforehand, going before to judgment; and some men they follow after.",
+       "Lay hands suddenly on no man, neither be partaker of other men's sins: keep thyself pure.",
+       "Drink no longer water, but use a little wine for thy stomach's sake and thine often infirmities.",
+       "Some men's sins are open beforehand, going before to judgment; and some men they follow after.",
        "Likewise also the good works of some are manifest beforehand; and they that are otherwise cannot be hid."
      ]},
     {6,
@@ -147,7 +147,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstTimothy do
        "But thou, O man of God, flee these things; and follow after righteousness, godliness, faith, love, patience, meekness.",
        "Fight the good fight of faith, lay hold on eternal life, whereunto thou art also called, and hast professed a good profession before many witnesses.",
        "I give thee charge in the sight of God, who quickeneth all things, and before Christ Jesus, who before Pontius Pilate witnessed a good confession;",
-       "That thou keep this commandment without spot, unrebukable, until the appearing of our Lord Jesus Christ:",
+       "That thou keep this commandment without spot, unrebukeable, until the appearing of our Lord Jesus Christ:",
        "Which in his times he shall shew, who is the blessed and only Potentate, the King of kings, and Lord of lords;",
        "Who only hath immortality, dwelling in the light which no man can approach unto; whom no man hath seen, nor can see: to whom be honour and power everlasting. Amen.",
        "Charge them that are rich in this world, that they be not highminded, nor trust in uncertain riches, but in the living God, who giveth us richly all things to enjoy;",
@@ -159,4 +159,6 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestament.Data.FirstTimothy do
   ]
 
   def chapters, do: @chapters
+
+  def headings, do: %{}
 end

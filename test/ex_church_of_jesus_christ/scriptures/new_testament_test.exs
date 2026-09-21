@@ -59,7 +59,8 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestamentTest do
         assert Enum.all?(verses, &(String.length(&1.text) > 5))
         assert Enum.all?(verses, &(&1.text == String.trim(&1.text)))
         refute Enum.any?(verses, &Regex.match?(~r/\d+:\d+/, &1.text))
-        refute Enum.any?(verses, &String.contains?(&1.text, ["  ", "*", "_", "[", "]"]))
+        # Brackets are part of the KJV text (1 John 2:23 "[but]").
+        refute Enum.any?(verses, &String.contains?(&1.text, ["  ", "*", "_"]))
       end
     end
   end
@@ -78,7 +79,7 @@ defmodule ExChurchOfJesusChrist.Scriptures.NewTestamentTest do
              "The grace of our Lord Jesus Christ be with you all. Amen."
   end
 
-  test "verses run together in one paragraph of the source text are split" do
+  test "verse boundaries" do
     assert NewTestament.verse!(:matthew, 1, 2).text ==
              "Abraham begat Isaac; and Isaac begat Jacob; and Jacob begat Judas and his brethren;"
 
