@@ -25,7 +25,7 @@ the Pearl of Great Price has the explanations of the Abraham facsimiles.
 ```elixir
 def deps do
   [
-    {:ex_church_of_jesus_christ, "~> 0.1.0"}
+    {:ex_church_of_jesus_christ, "~> 0.1.1"}
   ]
 end
 ```
